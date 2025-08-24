@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
-×Ô¶¯»ñÈ¡IPTVÑëÊÓÆµµÀ²¢Éú³ÉM3UÎÄ¼ş
-ÊÊÓÃÓÚGitHub Actions»·¾³
+è‡ªåŠ¨è·å–IPTVå¤®è§†é¢‘é“å¹¶ç”ŸæˆM3Uæ–‡ä»¶
+é€‚ç”¨äºGitHub Actionsç¯å¢ƒ
 """
 
 import sys
@@ -11,7 +12,7 @@ import re
 import subprocess
 from datetime import datetime
 
-# µ¼Èë±ØÒªµÄ¿â
+# å¯¼å…¥å¿…è¦çš„åº“
 try:
     from selenium import webdriver
     from selenium.webdriver.common.by import By
@@ -25,7 +26,7 @@ try:
     import requests
     from bs4 import BeautifulSoup
 except ImportError:
-    print("ÕıÔÚ°²×°±ØÒªµÄÒÀÀµ...")
+    print("æ­£åœ¨å®‰è£…å¿…è¦çš„ä¾èµ–...")
     os.system(f"{sys.executable} -m pip install selenium webdriver-manager requests beautifulsoup4")
     from selenium import webdriver
     from selenium.webdriver.common.by import By
@@ -40,37 +41,37 @@ except ImportError:
     from bs4 import BeautifulSoup
 
 def fix_broken_packages():
-    """ĞŞ¸´Ëğ»µµÄÈí¼ş°ü"""
-    print("³¢ÊÔĞŞ¸´Ëğ»µµÄÈí¼ş°ü...")
+    """ä¿®å¤æŸåçš„è½¯ä»¶åŒ…"""
+    print("å°è¯•ä¿®å¤æŸåçš„è½¯ä»¶åŒ…...")
     try:
         result = subprocess.run(["sudo", "apt-get", "update"],
                                 capture_output=True, text=True, timeout=300)
         if result.returncode != 0:
-            print(f"¸üĞÂ°üÁĞ±íÊ§°Ü: {result.stderr}")
+            print(f"æ›´æ–°åŒ…åˆ—è¡¨å¤±è´¥: {result.stderr}")
             return False
 
         result = subprocess.run(["sudo", "apt-get", "-f", "install"],
                                 capture_output=True, text=True, timeout=300)
         if result.returncode != 0:
-            print(f"ĞŞ¸´ÒÀÀµ¹ØÏµÊ§°Ü: {result.stderr}")
+            print(f"ä¿®å¤ä¾èµ–å…³ç³»å¤±è´¥: {result.stderr}")
             return False
 
         result = subprocess.run(["sudo", "apt-get", "autoremove", "-y"],
                                 capture_output=True, text=True, timeout=300)
         if result.returncode != 0:
-            print(f"ÇåÀí°üÊ§°Ü: {result.stderr}")
+            print(f"æ¸…ç†åŒ…å¤±è´¥: {result.stderr}")
             return False
 
-        print("Èí¼ş°üĞŞ¸´Íê³É")
+        print("è½¯ä»¶åŒ…ä¿®å¤å®Œæˆ")
         return True
 
     except Exception as e:
-        print(f"ĞŞ¸´Èí¼ş°üÊ±·¢Éú´íÎó: {e}")
+        print(f"ä¿®å¤è½¯ä»¶åŒ…æ—¶å‘ç”Ÿé”™è¯¯: {e}")
         return False
 
 def install_chrome():
-    """°²×° Chrome ä¯ÀÀÆ÷"""
-    print("ÕıÔÚ°²×° Chrome ä¯ÀÀÆ÷...")
+    """å®‰è£… Chrome æµè§ˆå™¨"""
+    print("æ­£åœ¨å®‰è£… Chrome æµè§ˆå™¨...")
     try:
         result = subprocess.run([
             "sudo", "wget", "-q", "-O", "-",
@@ -78,7 +79,7 @@ def install_chrome():
         ], capture_output=True, text=True, timeout=300)
 
         if result.returncode != 0:
-            print(f"ÏÂÔØ Chrome ÃÜÔ¿Ê§°Ü: {result.stderr}")
+            print(f"ä¸‹è½½ Chrome å¯†é’¥å¤±è´¥: {result.stderr}")
             return False
 
         result = subprocess.run([
@@ -87,30 +88,30 @@ def install_chrome():
         ], capture_output=True, text=True, timeout=300)
 
         if result.returncode != 0:
-            print(f"Ìí¼Ó Chrome ²Ö¿âÊ§°Ü: {result.stderr}")
+            print(f"æ·»åŠ  Chrome ä»“åº“å¤±è´¥: {result.stderr}")
             return False
 
         result = subprocess.run(["sudo", "apt-get", "update"],
                                 capture_output=True, text=True, timeout=300)
         if result.returncode != 0:
-            print(f"¸üĞÂ°üÁĞ±íÊ§°Ü: {result.stderr}")
+            print(f"æ›´æ–°åŒ…åˆ—è¡¨å¤±è´¥: {result.stderr}")
             return False
 
         result = subprocess.run(["sudo", "apt-get", "install", "-y", "google-chrome-stable"],
                                 capture_output=True, text=True, timeout=300)
         if result.returncode != 0:
-            print(f"°²×° Chrome Ê§°Ü: {result.stderr}")
+            print(f"å®‰è£… Chrome å¤±è´¥: {result.stderr}")
             return False
 
-        print("Chrome ä¯ÀÀÆ÷°²×°³É¹¦")
+        print("Chrome æµè§ˆå™¨å®‰è£…æˆåŠŸ")
         return True
 
     except Exception as e:
-        print(f"°²×° Chrome Ê±·¢Éú´íÎó: {e}")
+        print(f"å®‰è£… Chrome æ—¶å‘ç”Ÿé”™è¯¯: {e}")
         return False
 
 def find_chrome_executable():
-    """²éÕÒ Chrome ä¯ÀÀÆ÷¿ÉÖ´ĞĞÎÄ¼ş"""
+    """æŸ¥æ‰¾ Chrome æµè§ˆå™¨å¯æ‰§è¡Œæ–‡ä»¶"""
     possible_paths = [
         "/usr/bin/google-chrome",
         "/usr/bin/google-chrome-stable",
@@ -122,42 +123,42 @@ def find_chrome_executable():
 
     for path in possible_paths:
         if os.path.exists(path):
-            print(f"ÕÒµ½ Chrome ä¯ÀÀÆ÷: {path}")
+            print(f"æ‰¾åˆ° Chrome æµè§ˆå™¨: {path}")
             try:
                 result = subprocess.run([path, "--version"], capture_output=True, text=True, timeout=10)
                 if result.returncode == 0:
                     chrome_version = result.stdout.strip()
-                    print(f"Chrome °æ±¾: {chrome_version}")
+                    print(f"Chrome ç‰ˆæœ¬: {chrome_version}")
                     return path
             except Exception as e:
-                print(f"ÑéÖ¤ Chrome ¿ÉÖ´ĞĞÎÄ¼şÊ§°Ü: {e}")
+                print(f"éªŒè¯ Chrome å¯æ‰§è¡Œæ–‡ä»¶å¤±è´¥: {e}")
                 continue
 
     try:
         result = subprocess.run(["which", "google-chrome"], capture_output=True, text=True, timeout=10)
         if result.returncode == 0:
             chrome_path = result.stdout.strip()
-            print(f"Ê¹ÓÃ which ÃüÁîÕÒµ½ Chrome: {chrome_path}")
+            print(f"ä½¿ç”¨ which å‘½ä»¤æ‰¾åˆ° Chrome: {chrome_path}")
             return chrome_path
     except Exception as e:
-        print(f"Ê¹ÓÃ which ÃüÁî²éÕÒ Chrome Ê§°Ü: {e}")
+        print(f"ä½¿ç”¨ which å‘½ä»¤æŸ¥æ‰¾ Chrome å¤±è´¥: {e}")
 
     return None
 
 def setup_driver():
-    """ÉèÖÃChromeä¯ÀÀÆ÷Ñ¡Ïî - ÊÊÓÃÓÚGitHub Actions"""
+    """è®¾ç½®Chromeæµè§ˆå™¨é€‰é¡¹ - é€‚ç”¨äºGitHub Actions"""
     if not fix_broken_packages():
-        print("¾¯¸æ: ÎŞ·¨ĞŞ¸´Ëğ»µµÄÈí¼ş°ü£¬¼ÌĞø³¢ÊÔ°²×° Chrome")
+        print("è­¦å‘Š: æ— æ³•ä¿®å¤æŸåçš„è½¯ä»¶åŒ…ï¼Œç»§ç»­å°è¯•å®‰è£… Chrome")
 
     chrome_path = find_chrome_executable()
 
     if not chrome_path:
         if not install_chrome():
-            raise Exception("ÎŞ·¨°²×° Chrome ä¯ÀÀÆ÷")
+            raise Exception("æ— æ³•å®‰è£… Chrome æµè§ˆå™¨")
 
         chrome_path = find_chrome_executable()
         if not chrome_path:
-            raise Exception("Chrome ä¯ÀÀÆ÷°²×°ºóÈÔÎ´ÕÒµ½")
+            raise Exception("Chrome æµè§ˆå™¨å®‰è£…åä»æœªæ‰¾åˆ°")
 
     chrome_options = Options()
     chrome_options.add_argument('--headless')
@@ -175,7 +176,7 @@ def setup_driver():
     return driver
 
 def install_chrome_if_needed():
-    """×Ô¶¯¼ì²â²¢°²×° Google Chrome£¨½öÏŞ Ubuntu£©"""
+    """è‡ªåŠ¨æ£€æµ‹å¹¶å®‰è£… Google Chromeï¼ˆä»…é™ Ubuntuï¼‰"""
     chrome_paths = [
         "/usr/bin/google-chrome",
         "/usr/bin/google-chrome-stable",
@@ -184,10 +185,10 @@ def install_chrome_if_needed():
         "/snap/bin/chromium"
     ]
     if any(os.path.exists(p) for p in chrome_paths):
-        print("Chrome ÒÑ°²×°¡£")
+        print("Chrome å·²å®‰è£…ã€‚")
         return True
 
-    print("Î´¼ì²âµ½ Chrome£¬ÕıÔÚ×Ô¶¯°²×° Google Chrome ...")
+    print("æœªæ£€æµ‹åˆ° Chromeï¼Œæ­£åœ¨è‡ªåŠ¨å®‰è£… Google Chrome ...")
     try:
         subprocess.run(
             "wget -O- https://dl.google.com/linux/linux_signing_key.pub | "
@@ -202,25 +203,25 @@ def install_chrome_if_needed():
         )
         subprocess.run("sudo apt update", shell=True, check=True)
         subprocess.run("sudo apt install -y google-chrome-stable", shell=True, check=True)
-        print("Chrome °²×°Íê³É¡£")
+        print("Chrome å®‰è£…å®Œæˆã€‚")
         return True
     except subprocess.CalledProcessError as e:
-        print(f"×Ô¶¯°²×° Chrome Ê§°Ü: {e}")
+        print(f"è‡ªåŠ¨å®‰è£… Chrome å¤±è´¥: {e}")
         return False
 
 if not install_chrome_if_needed():
-    print("ÎŞ·¨×Ô¶¯°²×° Chrome£¬ÇëÊÖ¶¯°²×°ºóÖØÊÔ¡£")
+    print("æ— æ³•è‡ªåŠ¨å®‰è£… Chromeï¼Œè¯·æ‰‹åŠ¨å®‰è£…åé‡è¯•ã€‚")
     sys.exit(1)
 
 def find_cctv_channels(driver, base_url):
     """
-    ·ÃÎÊ iptv-search.com ²¢ÌáÈ¡ CCTV ÆµµÀĞÅÏ¢£¬×¥È¡Ç°20Ò³
-    ·µ»Ø: [{'name': 'CCTV-2', 'url': 'http://...'}, ...]
+    è®¿é—® iptv-search.com å¹¶æå– CCTV é¢‘é“ä¿¡æ¯ï¼ŒæŠ“å–å‰20é¡µ
+    è¿”å›: [{'name': 'CCTV-2', 'url': 'http://...'}, ...]
     """
     channels = []
     for page in range(1, 21):
         url = f"{base_url}&page={page}"
-        print(f"ÕıÔÚ·ÃÎÊ {url} ...")
+        print(f"æ­£åœ¨è®¿é—® {url} ...")
         driver.get(url)
         time.sleep(5)
 
@@ -233,54 +234,54 @@ def find_cctv_channels(driver, base_url):
                 found = True
                 name = match.group(1).replace('CCTV', 'CCTV-')
                 channels.append({"name": name, "url": link})
-                print(f"·¢ÏÖÆµµÀ: {name} - {link}")
+                print(f"å‘ç°é¢‘é“: {name} - {link}")
         if not found:
-            print(f"µÚ{page}Ò³Î´·¢ÏÖCCTVÆµµÀ")
+            print(f"ç¬¬{page}é¡µæœªå‘ç°CCTVé¢‘é“")
     return channels
 
 def create_m3u_playlist(channels, filename="cctv_channels.m3u"):
-    """´´½¨M3U²¥·ÅÁĞ±íÎÄ¼ş"""
+    """åˆ›å»ºM3Uæ’­æ”¾åˆ—è¡¨æ–‡ä»¶"""
     try:
         with open(filename, "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
             for channel in channels:
                 f.write(f"#EXTINF:-1, {channel['name']}\n")
                 f.write(f"{channel['url']}\n")
-        print(f"M3U²¥·ÅÁĞ±íÒÑ±£´æµ½ {filename}")
+        print(f"M3Uæ’­æ”¾åˆ—è¡¨å·²ä¿å­˜åˆ° {filename}")
         return True
     except Exception as e:
-        print(f"´´½¨M3UÎÄ¼şÊ±·¢Éú´íÎó: {e}")
+        print(f"åˆ›å»ºM3Uæ–‡ä»¶æ—¶å‘ç”Ÿé”™è¯¯: {e}")
         return False
 
 def main():
-    """Ö÷º¯Êı"""
+    """ä¸»å‡½æ•°"""
     base_url = "https://iptv-search.com/zh-hans/search/?q=CCTV"
 
     try:
         driver = setup_driver()
-        print("? ä¯ÀÀÆ÷Çı¶¯³õÊ¼»¯³É¹¦")
+        print("? æµè§ˆå™¨é©±åŠ¨åˆå§‹åŒ–æˆåŠŸ")
     except Exception as e:
-        print(f"? ÎŞ·¨³õÊ¼»¯ä¯ÀÀÆ÷Çı¶¯: {e}")
+        print(f"? æ— æ³•åˆå§‹åŒ–æµè§ˆå™¨é©±åŠ¨: {e}")
         return
 
     try:
         cctv_channels = find_cctv_channels(driver, base_url)
 
         if cctv_channels:
-            print(f"ÕÒµ½ÁË {len(cctv_channels)} ¸öCCTVÆµµÀ")
+            print(f"æ‰¾åˆ°äº† {len(cctv_channels)} ä¸ªCCTVé¢‘é“")
             success = create_m3u_playlist(cctv_channels)
             if success:
-                print("²Ù×÷Íê³É£¡M3U²¥·ÅÁĞ±íÒÑÉú³É")
+                print("æ“ä½œå®Œæˆï¼M3Uæ’­æ”¾åˆ—è¡¨å·²ç”Ÿæˆ")
             else:
-                print("´´½¨M3UÎÄ¼şÊ§°Ü")
+                print("åˆ›å»ºM3Uæ–‡ä»¶å¤±è´¥")
         else:
-            print("Î´ÕÒµ½CCTVÆµµÀ")
+            print("æœªæ‰¾åˆ°CCTVé¢‘é“")
             with open('page_source.html', 'w', encoding='utf-8') as f:
                 f.write(driver.page_source)
-            print("ÒÑ±£´æÒ³ÃæÔ´´úÂëµ½ page_source.html")
+            print("å·²ä¿å­˜é¡µé¢æºä»£ç åˆ° page_source.html")
 
     except Exception as e:
-        print(f"³ÌĞòÖ´ĞĞ¹ı³ÌÖĞ·¢Éú´íÎó: {e}")
+        print(f"ç¨‹åºæ‰§è¡Œè¿‡ç¨‹ä¸­å‘ç”Ÿé”™è¯¯: {e}")
         import traceback
         traceback.print_exc()
 
