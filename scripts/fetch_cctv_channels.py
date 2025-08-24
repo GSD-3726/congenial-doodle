@@ -219,7 +219,7 @@ def find_cctv_channels(driver, base_url):
     返回: [{'name': 'CCTV-2', 'url': 'http://...'}, ...]
     """
     channels = []
-    for page in range(1， 41):
+    for page in range(1, 31):
         url = f"{base_url}&page={page}"
         print(f"正在访问 {url} ...")
         driver.get(url)
@@ -291,4 +291,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
