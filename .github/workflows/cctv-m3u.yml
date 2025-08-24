@@ -2,7 +2,6 @@ name: Update CCTV IPTV Channels
 
 on:
   schedule:
-    # 每天北京时间2点运行（UTC时间18:00）
     - cron: '0 18 * * *'
   workflow_dispatch:
 
@@ -25,3 +24,11 @@ jobs:
 
     - name: Run fetch_cctv_channels
       run: python3 scripts/fetch_cctv_channels.py
+
+    - name: Commit and push if m3u updated
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add cctv_channels.m3u
+        git diff --cached --quiet || git commit -m "Auto update CCTV m3u"
+        git push
