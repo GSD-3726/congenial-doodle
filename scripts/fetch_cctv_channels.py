@@ -219,11 +219,11 @@ def find_cctv_channels(driver, base_url):
     返回: [{'name': 'CCTV-2', 'url': 'http://...'}, ...]
     """
     channels = []
-    for page in range(1, 21):
+    for page in range(1， 41):
         url = f"{base_url}&page={page}"
         print(f"正在访问 {url} ...")
         driver.get(url)
-        time.sleep(5)
+        time.sleep(3)
 
         soup = BeautifulSoup(driver.page_source, "html.parser")
         found = False
@@ -291,3 +291,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
