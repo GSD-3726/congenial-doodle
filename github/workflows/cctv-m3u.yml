@@ -1,0 +1,65 @@
+name: CCTV M3U Playlist Generator
+
+on:
+  schedule:
+    # 每天UTC时间2点运行
+    - cron: '0 2 * * *'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  generate-m3u:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Fix broken packages
+      run: |
+        sudo apt-get update
+        sudo apt-get -f install
+        sudo apt-get autoremove -y
+        sudo apt-get clean
+        
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y wget gnupg software-properties-common curl
+        
+    - name: Install Chrome browser
+      run: |
+        # 添加 Google Chrome 官方仓库
+        sudo wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+        echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+        
+        # 更新包列表并安装 Chrome
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
+        
+        # 验证安装
+        echo "Chrome 版本:"
+        google-chrome --version
+        echo "Chrome 路径:"
+        which google-chrome
+        
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install selenium webdriver-manager requests beautifulsoup4
+        
+    - name: Run CCTV M3U generator
+      run: |
+        python scripts/fetch_cctv_channels.py
+        
+    - name: Commit and push if changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add cctv_playlist.m3u
+        git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update CCTV playlist - $(date +'%Y-%m-%d %H:%M')"
+        git push
