@@ -1,65 +1,52 @@
-name: CCTV M3U Playlist Generator
+name: Update CCTV IPTV Channels
 
 on:
   schedule:
-    # Ã¿ÌìUTCÊ±¼ä2µãÔËĞĞ
-    - cron: '0 2 * * *'
-  workflow_dispatch:  # ÔÊĞíÊÖ¶¯´¥·¢
+    # æ¯å¤©å‡Œæ™¨2ç‚¹è¿è¡Œ (UTCæ—¶é—´ï¼ŒåŒ—äº¬æ—¶é—´æ˜¯UTC+8ï¼Œæ‰€ä»¥è¿™é‡Œæ˜¯18:00 UTCï¼Œå³åŒ—äº¬æ—¶é—´ç¬¬äºŒå¤©2:00)
+    - cron: '0 18 * * *'
+  workflow_dispatch:  # å…è®¸æ‰‹åŠ¨è§¦å‘
 
 jobs:
-  generate-m3u:
+  update-cctv:
     runs-on: ubuntu-latest
     
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-      
+      with:
+        persist-credentials: false
+
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.9'
-        
-    - name: Fix broken packages
-      run: |
-        sudo apt-get update
-        sudo apt-get -f install
-        sudo apt-get autoremove -y
-        sudo apt-get clean
-        
+
     - name: Install system dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y wget gnupg software-properties-common curl
-        
-    - name: Install Chrome browser
+        sudo apt-get install -y wget gnupg
+
+    - name: Install Google Chrome
       run: |
-        # Ìí¼Ó Google Chrome ¹Ù·½²Ö¿â
-        sudo wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+        wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
         echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
-        
-        # ¸üĞÂ°üÁĞ±í²¢°²×° Chrome
         sudo apt-get update
         sudo apt-get install -y google-chrome-stable
-        
-        # ÑéÖ¤°²×°
-        echo "Chrome °æ±¾:"
-        google-chrome --version
-        echo "Chrome Â·¾¶:"
-        which google-chrome
-        
+
+    - name: Check Chrome version
+      run: google-chrome-stable --version
+
     - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
         pip install selenium webdriver-manager requests beautifulsoup4
-        
-    - name: Run CCTV M3U generator
-      run: |
-        python scripts/fetch_cctv_channels.py
-        
+
+    - name: Run script to generate M3U
+      run: fetch_cctv_channels
     - name: Commit and push if changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add cctv_playlist.m3u
-        git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update CCTV playlist - $(date +'%Y-%m-%d %H:%M')"
+        git add cctv_channels.m3u
+        git diff --staged --quiet || git commit -m "Auto-update CCTV channels - $(date)"
         git push
