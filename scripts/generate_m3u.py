@@ -1,10 +1,11 @@
 import re
 import os
+import sys
 import time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from urllib.parse import quote
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup  # 确保已安装
 from playwright.sync_api import sync_playwright
 
 # 预编译正则表达式提升性能
