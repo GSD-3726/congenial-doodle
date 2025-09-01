@@ -1,9 +1,6 @@
 name: Generate M3U
 
-on:
-  push:
-  schedule:
-    - cron: '0 19 * * *'  # 北京时间凌晨3点（UTC+8）对应 UTC时间19点
+on: [push]
 
 jobs:
   build:
@@ -19,7 +16,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install playwright lxml
+        pip install playwright lxml beautifulsoup4  # 添加beautifulsoup4
         playwright install chromium
 
     - name: Run script
