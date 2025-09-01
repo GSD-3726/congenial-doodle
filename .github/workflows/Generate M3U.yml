@@ -1,6 +1,9 @@
 name: Generate M3U
 
-on: [push]
+on:
+  push:
+  schedule:
+    - cron: '0 19 * * *'  # 每天UTC时间19:00运行（北京时间第二天凌晨3:00）
 
 jobs:
   build:
@@ -16,7 +19,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install playwright lxml beautifulsoup4  # 添加beautifulsoup4
+        pip install playwright lxml beautifulsoup4
         playwright install chromium
 
     - name: Run script
@@ -27,4 +30,10 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: m3u-files
-        path: scripts/output/
+        path: scripts/output/live.m3u
+
+    - name: Upload to output directory
+      run: |
+        mkdir -p ../output
+        cp output/live.m3u ../output/
+      working-directory: ./scripts
