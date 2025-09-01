@@ -2,12 +2,15 @@ name: Generate M3U
 
 on:
   push:
+    branches: [ main ]
   schedule:
     - cron: '0 19 * * *'  # 每天UTC时间19:00运行（北京时间第二天凌晨3:00）
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15  # 设置整体超时，避免挂起
+
     steps:
     - uses: actions/checkout@v4
 
@@ -20,19 +23,20 @@ jobs:
     - name: Install dependencies
       run: |
         pip install playwright lxml beautifulsoup4
-        playwright install chromium
+        playwright install --with-deps chromium  # 确保安装依赖
 
     - name: Run script
       working-directory: ./scripts
       run: python generate_m3u.py
 
-    - name: Upload artifact
+    - name: Upload M3U artifact
       uses: actions/upload-artifact@v4
       with:
-        name: m3u-files
+        name: live-m3u
         path: scripts/output/live.m3u
+        retention-days: 5  # 保留时间
 
-    - name: Upload to output directory
+    - name: Store M3U in repository output
       run: |
         mkdir -p ../output
         cp output/live.m3u ../output/
