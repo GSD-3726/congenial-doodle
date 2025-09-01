@@ -5,7 +5,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from urllib.parse import quote
-from bs4 import BeautifulSoup  # 确保已安装
+from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
 # 预编译正则表达式提升性能
@@ -40,7 +40,8 @@ def fetch_page(browser, query, page=1):
     """高性能页面抓取（减少 60% 等待时间）"""
     context = browser.new_context(
         java_script_enabled=False,  # 禁用 JS 提升速度
-        user_agent='Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
+        user_agent='Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+        accept_downloads=False  # 添加这行以禁用下载处理
     )
     try:
         page_obj = context.new_page()
@@ -49,12 +50,16 @@ def fetch_page(browser, query, page=1):
         # 优化网络请求
         response = page_obj.goto(url, timeout=15000, wait_until='domcontentloaded')
         if not response or response.status != 200:
+            print(f"请求失败: {url}, 状态码: {getattr(response, 'status', '无响应')}")
             return None
             
         # 智能等待表格加载
         page_obj.wait_for_selector('table', timeout=8000)
         content = page_obj.content()
         return content
+    except Exception as e:
+        print(f"在处理 {query} 第 {page} 页时发生异常: {e}")
+        return None
     finally:
         context.close()
 
@@ -130,6 +135,8 @@ def main():
                     f.write(f'#EXTINF:-1 tvg-name="{item["channel"]}",{item["channel"]} ({item["quality"]})\n{item["url"]}\n')
             
             print(f"生成 {len(unique_links)} 个频道到 {output_dir}/live.m3u")
+    except Exception as e:
+        print(f"主程序执行出错: {e}")
     finally:
         browser.close()
         playwright.stop()
