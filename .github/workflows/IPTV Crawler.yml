@@ -33,7 +33,7 @@ jobs:
       run: cd congenial-doodle/scripts
         
     - name: Run IPTV crawler
-      run: python generate_m3u.py
+      run: python scripts/generate_m3u.py
         
     - name: Commit and push if changed
       run: |
