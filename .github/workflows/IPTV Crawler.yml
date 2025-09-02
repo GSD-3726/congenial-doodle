@@ -29,16 +29,45 @@ jobs:
         pip install playwright beautifulsoup4 requests
         playwright install chromium
         
-    - name: Change to script directory
-      run: cd congenial-doodle/scripts
+    - name: List directory structure
+      run: ls -la
         
     - name: Run IPTV crawler
-      run: python scripts/generate_m3u.py
-        
-    - name: Commit and push if changed
       run: |
+        # 首先检查脚本的确切位置
+        if [ -f "congenial-doodle/scripts/generate_m3u.py" ]; then
+          echo "Running script from congenial-doodle/scripts/generate_m3u.py"
+          cd congenial-doodle/scripts
+          python generate_m3u.py
+          cd ../..
+        elif [ -f "scripts/generate_m3u.py" ]; then
+          echo "Running script from scripts/generate_m3u.py"
+          cd scripts
+          python generate_m3u.py
+          cd ..
+        else
+          echo "找不到 generate_m3u.py 脚本"
+          find . -name "generate_m3u.py" -type f
+          exit 1
+        fi
+        
+    - name: Find and commit m3u file
+      run: |
+        # 查找 m3u 文件
+        if [ -f "congenial-doodle/scripts/output/live.m3u" ]; then
+          m3u_path="congenial-doodle/scripts/output/live.m3u"
+        elif [ -f "scripts/output/live.m3u" ]; then
+          m3u_path="scripts/output/live.m3u"
+        elif [ -f "output/live.m3u" ]; then
+          m3u_path="output/live.m3u"
+        else
+          echo "找不到 live.m3u 文件"
+          find . -name "live.m3u" -type f
+          exit 1
+        fi
+        
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add congenial-doodle/scripts/output/live.m3u
+        git add "$m3u_path"
         git diff --quiet && git diff --staged --quiet || git commit -m "Update IPTV channels - $(date)"
         git push
