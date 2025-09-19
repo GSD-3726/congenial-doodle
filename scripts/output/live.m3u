@@ -2,6 +2,8 @@
 #EXTINF:-1 tvg-name="cctv1",cctv1 (未知)
 https://stream1.freetv.fun/bdaf60a1c0679c199a2ce017e4fd5567e88fbcbfc2a676d4e067add71b22f3af.m3u8
 #EXTINF:-1 tvg-name="cctv1",cctv1 (未知)
+https://stream1.freetv.fun/cctv1-8.m3u8
+#EXTINF:-1 tvg-name="cctv1",cctv1 (未知)
 https://stream1.freetv.fun/897b65a4585a5ff67c3c98cb4aa781cd210532066e48b910812f70b1205a8638.m3u8
 #EXTINF:-1 tvg-name="cctv1",cctv1 (未知)
 https://stream1.freetv.fun/cctv1-15.m3u8
@@ -50,8 +52,6 @@ https://stream1.freetv.fun/b8dcdc7ba56cbf09277896dfa81c05756e3da4cc48c5b0ad6ea09
 #EXTINF:-1 tvg-name="cctv1",cctv1 (未知)
 https://stream1.freetv.fun/cctv1-48.m3u8
 #EXTINF:-1 tvg-name="cctv1",cctv1 (未知)
-https://stream1.freetv.fun/a4f6e6163319cb6ad59892a54343f514a9ff20917af903f2ee1818e005f43202.m3u8
-#EXTINF:-1 tvg-name="cctv1",cctv1 (未知)
 https://stream1.freetv.fun/22403a316904aac4ea53ed06a6c9ea5f40f56397b1c55d8434a304d2f65db76c.m3u8
 #EXTINF:-1 tvg-name="cctv1",cctv1 (未知)
 https://stream1.freetv.fun/cctv1-55.m3u8
@@ -96,10 +96,6 @@ https://stream1.freetv.fun/669cea6595ab138a586e3fdbce19f189bcc74a4f683af84615a84
 #EXTINF:-1 tvg-name="cctv10",cctv10 (未知)
 https://stream1.freetv.fun/cctv10-43.m3u8
 #EXTINF:-1 tvg-name="cctv10",cctv10 (未知)
-https://stream1.freetv.fun/03ec808959ed34e80c3c17243268f70f92783305bd601cfce15814b67c7ba180.m3u8
-#EXTINF:-1 tvg-name="cctv10",cctv10 (未知)
-https://stream1.freetv.fun/cctv10-24.m3u8
-#EXTINF:-1 tvg-name="cctv10",cctv10 (未知)
 https://stream1.freetv.fun/6f2158a18d60f881d442bf9f856aeef15a5191a500e68f12ea67e86c0c0cce48.m3u8
 #EXTINF:-1 tvg-name="cctv10",cctv10 (未知)
 https://stream1.freetv.fun/cctv10-50.m3u8
@@ -111,10 +107,6 @@ https://stream1.freetv.fun/cctv10-18.m3u8
 https://stream1.freetv.fun/34ea3cb07bf9e0ea0bb65bfee2b00073310a9caba951327df644b963f0da2fb8.m3u8
 #EXTINF:-1 tvg-name="cctv10",cctv10 (未知)
 https://stream1.freetv.fun/cctv10-47.m3u8
-#EXTINF:-1 tvg-name="cctv10",cctv10 (未知)
-https://stream1.freetv.fun/a069427ccbbbce55eac15cf669f292774fdba54d938286ecaa0dfcb7209fa3c7.m3u8
-#EXTINF:-1 tvg-name="cctv10",cctv10 (未知)
-https://stream1.freetv.fun/cctv10-60.m3u8
 #EXTINF:-1 tvg-name="cctv10 (IPv6)",cctv10 (IPv6) (未知)
 https://stream1.freetv.fun/702a248005dd0225d8ed1dfb970e3a9bf4c3c41c0369865e4844b6130b4ff0d0.m3u8
 #EXTINF:-1 tvg-name="cctv10 (IPv6)",cctv10 (IPv6) (未知)
@@ -149,12 +141,6 @@ https://stream1.freetv.fun/5617304ea25f76d83957d5012276580a73df55d2617a82014ce89
 https://stream1.freetv.fun/cctv11-48.m3u8
 #EXTINF:-1 tvg-name="cctv11",cctv11 (未知)
 https://stream1.freetv.fun/a1ee8a4f3954b5e76c7d40251197d089421f936e5f616960f16ff6494fff42bf.m3u8
-#EXTINF:-1 tvg-name="cctv11",cctv11 (未知)
-https://stream1.freetv.fun/cctv11-35.m3u8
-#EXTINF:-1 tvg-name="cctv11",cctv11 (未知)
-https://stream1.freetv.fun/f67f890e2385fb32c86102a54aaff55cceca4dcf566e976e1d28675832e337ad.m3u8
-#EXTINF:-1 tvg-name="cctv11",cctv11 (未知)
-https://stream1.freetv.fun/cctv11-37.m3u8
 #EXTINF:-1 tvg-name="cctv11",cctv11 (未知)
 https://stream1.freetv.fun/4dbca66939ec886cc2ac71e07fbe545f7d6b6e4189fc63d01cd0a9b705414492.m3u8
 #EXTINF:-1 tvg-name="cctv11",cctv11 (未知)
@@ -195,6 +181,8 @@ https://stream1.freetv.fun/cctv12-46.m3u8
 https://stream1.freetv.fun/531a07391e192370431077f43cd12406c62f4e79e0e580ed0316907853153177.m3u8
 #EXTINF:-1 tvg-name="cctv12",cctv12 (未知)
 https://stream1.freetv.fun/cctv12-79.m3u8
+#EXTINF:-1 tvg-name="cctv12",cctv12 (未知)
+https://stream1.freetv.fun/ea2d3b63379029bcde2b72ce620ad4e683b833102a1f0f4228344a1a81172578.m3u8
 #EXTINF:-1 tvg-name="cctv12",cctv12 (未知)
 https://stream1.freetv.fun/4a3f1137679e24425c26c8de0e832aeb9ba7e71ca4c09b2cd42e409186f53abf.m3u8
 #EXTINF:-1 tvg-name="cctv12",cctv12 (未知)
@@ -242,9 +230,9 @@ https://stream1.freetv.fun/ipv6-cctv12-77.m3u8
 #EXTINF:-1 tvg-name="cctv13",cctv13 (未知)
 https://stream1.freetv.fun/cb03bbfd5cf2e5d21686a440bbb02257ba7245f5d74f0b72138d17617f8d04af.m3u8
 #EXTINF:-1 tvg-name="cctv13",cctv13 (未知)
-https://stream1.freetv.fun/a5695512b0fac070bbc7ddd3f9ead958c3353b065b7e4dc6d17908aa50cd3feb.m3u8
+https://stream1.freetv.fun/cctv13-15.m3u8
 #EXTINF:-1 tvg-name="cctv13",cctv13 (未知)
-https://stream1.freetv.fun/cctv13-56.m3u8
+https://stream1.freetv.fun/a5695512b0fac070bbc7ddd3f9ead958c3353b065b7e4dc6d17908aa50cd3feb.m3u8
 #EXTINF:-1 tvg-name="cctv13",cctv13 (未知)
 https://stream1.freetv.fun/032077fd8a5e5858db68e56df3e76063f55f5ad7e4e61c01ee7c736c8b260e07.m3u8
 #EXTINF:-1 tvg-name="cctv13",cctv13 (未知)
@@ -273,10 +261,6 @@ https://stream1.freetv.fun/cctv13-36.m3u8
 https://stream1.freetv.fun/8221cea48ee0cdb1e6c24c1605b81905d56343fc75fb26130858a1d4d5e2aa63.m3u8
 #EXTINF:-1 tvg-name="cctv13",cctv13 (未知)
 https://stream1.freetv.fun/cctv13-33.m3u8
-#EXTINF:-1 tvg-name="cctv13",cctv13 (未知)
-https://stream1.freetv.fun/864260dae46a78acb1e8ed369525d1c3b8bc16aa69c8789aea0bccf831b6ac40.m3u8
-#EXTINF:-1 tvg-name="cctv13",cctv13 (未知)
-https://stream1.freetv.fun/cctv13-52.m3u8
 #EXTINF:-1 tvg-name="cctv13",cctv13 (未知)
 https://stream1.freetv.fun/8322a5f8f9ef01ab3c6b242a7007dbfea4003032f7ddd7e74060d3c9e742c531.m3u8
 #EXTINF:-1 tvg-name="cctv13",cctv13 (未知)
@@ -316,6 +300,8 @@ https://stream1.freetv.fun/cctv14-35.m3u8
 #EXTINF:-1 tvg-name="cctv14",cctv14 (未知)
 https://stream1.freetv.fun/40de22b6a478a21c7e86c2e70e1d58e97be3846363ffb9c8b9d4ffd939207ad2.m3u8
 #EXTINF:-1 tvg-name="cctv14",cctv14 (未知)
+https://stream1.freetv.fun/cctv14-52.m3u8
+#EXTINF:-1 tvg-name="cctv14",cctv14 (未知)
 https://stream1.freetv.fun/b64b2a518a4639f46d8b82c7f2afa1bfa91e95eb64659a4f75d421357f20a18b.m3u8
 #EXTINF:-1 tvg-name="cctv14",cctv14 (未知)
 https://stream1.freetv.fun/cctv14-45.m3u8
@@ -325,6 +311,8 @@ https://stream1.freetv.fun/5d7dfa5ebfe90c78b537cdc5dd77be50a3ed19ffe163aa50de5f4
 https://stream1.freetv.fun/cctv14-5.m3u8
 #EXTINF:-1 tvg-name="cctv14",cctv14 (未知)
 https://stream1.freetv.fun/318722914b0180a05ca32723cab95d2e8986a6a28fb451445a2c009279f230be.m3u8
+#EXTINF:-1 tvg-name="cctv14",cctv14 (未知)
+https://stream1.freetv.fun/cctv14-77.m3u8
 #EXTINF:-1 tvg-name="cctv14",cctv14 (未知)
 https://stream1.freetv.fun/6cef7d3d168de641b9fa97248d8218d2a9c07e92b96af6a0d921878fe93582a8.m3u8
 #EXTINF:-1 tvg-name="cctv14",cctv14 (未知)
@@ -341,10 +329,6 @@ https://stream1.freetv.fun/cctv14-65.m3u8
 https://stream1.freetv.fun/0615172c9e083d70772bf6d78ffcd4e344e9b95aaa026d603259348488832520.m3u8
 #EXTINF:-1 tvg-name="cctv14",cctv14 (未知)
 https://stream1.freetv.fun/cctv14-70.m3u8
-#EXTINF:-1 tvg-name="cctv14",cctv14 (未知)
-https://stream1.freetv.fun/3cb65b76db2d276d37838b0933586c787af9cd11aeac524d3b7a4bb67bcd2d8d.m3u8
-#EXTINF:-1 tvg-name="cctv14",cctv14 (未知)
-https://stream1.freetv.fun/cctv14-60.m3u8
 #EXTINF:-1 tvg-name="cctv14 (IPv6)",cctv14 (IPv6) (未知)
 https://stream1.freetv.fun/8e9afc4f59f64af91c70df46685d677d5de699b2b684ae8910827eeabf08513c.m3u8
 #EXTINF:-1 tvg-name="cctv14 (IPv6)",cctv14 (IPv6) (未知)
@@ -358,10 +342,6 @@ https://stream1.freetv.fun/e832591718bce2fbd510893039a192cd4d685a6c29a5cab7f17e4
 #EXTINF:-1 tvg-name="cctv15",cctv15 (未知)
 https://stream1.freetv.fun/cctv15-52.m3u8
 #EXTINF:-1 tvg-name="cctv15",cctv15 (未知)
-https://stream1.freetv.fun/c5b9873d4b2d1fa8ec752b3f0415348bfeeeb4c6d1aad78ee3bf24660e93c1b3.m3u8
-#EXTINF:-1 tvg-name="cctv15",cctv15 (未知)
-https://stream1.freetv.fun/cctv15-13.m3u8
-#EXTINF:-1 tvg-name="cctv15",cctv15 (未知)
 https://stream1.freetv.fun/e9e09683a9b87b0caa1a553378d0f18424e768ee643b93a54bfbe15944fb2c20.m3u8
 #EXTINF:-1 tvg-name="cctv15",cctv15 (未知)
 https://stream1.freetv.fun/cctv15-71.m3u8
@@ -374,10 +354,6 @@ https://stream1.freetv.fun/2c02ba7886ffaec4d28d5f9246f2bbf8dd89da8771f03f3bbbef4
 #EXTINF:-1 tvg-name="cctv15",cctv15 (未知)
 https://stream1.freetv.fun/cctv15-51.m3u8
 #EXTINF:-1 tvg-name="cctv15",cctv15 (未知)
-https://stream1.freetv.fun/5a65eb48b1fe9a4c4ca85d9817109aefad83f4c1f648bdf79b3a02d6d3f6016b.m3u8
-#EXTINF:-1 tvg-name="cctv15",cctv15 (未知)
-https://stream1.freetv.fun/cctv15-56.m3u8
-#EXTINF:-1 tvg-name="cctv15",cctv15 (未知)
 https://stream1.freetv.fun/a8a8f610222ebde00a5a1de02fae75e306f06f333ac01aeecd8c363c51285537.m3u8
 #EXTINF:-1 tvg-name="cctv15",cctv15 (未知)
 https://stream1.freetv.fun/cctv15-44.m3u8
@@ -385,6 +361,8 @@ https://stream1.freetv.fun/cctv15-44.m3u8
 https://stream1.freetv.fun/89350ec44a5c1670985192a5f75ef92ca5832bcb9856969ba76a2a30fe109521.m3u8
 #EXTINF:-1 tvg-name="cctv15",cctv15 (未知)
 https://stream1.freetv.fun/cctv15-79.m3u8
+#EXTINF:-1 tvg-name="cctv15",cctv15 (未知)
+https://stream1.freetv.fun/6a5426bb4a07d1f8b9b2dc3b053ea722ac96e0ebabe07d4a0c2fd8c040866b2c.m3u8
 #EXTINF:-1 tvg-name="cctv15",cctv15 (未知)
 https://stream1.freetv.fun/8d1e2698954349f890fafaecfa5b1864944c947a8840437e1ffaeb822fc168c8.m3u8
 #EXTINF:-1 tvg-name="cctv15",cctv15 (未知)
@@ -395,6 +373,8 @@ https://stream1.freetv.fun/cb3c72e7254e40411c7136bafb32bd8e1b6f4739c265c52851cff
 https://stream1.freetv.fun/cctv15-45.m3u8
 #EXTINF:-1 tvg-name="cctv15",cctv15 (未知)
 https://stream1.freetv.fun/40584a90545d35d31321da27d317744615c2310ea2570b0f7fa221e09fbba63e.m3u8
+#EXTINF:-1 tvg-name="cctv15",cctv15 (未知)
+https://stream1.freetv.fun/cctv15-61.m3u8
 #EXTINF:-1 tvg-name="cctv15 (IPv6)",cctv15 (IPv6) (未知)
 https://stream1.freetv.fun/f5c27d1a459fea9505fe0eaff71c5f8b814a01876be632f11f1251180cd55f9b.m3u8
 #EXTINF:-1 tvg-name="cctv15 (IPv6)",cctv15 (IPv6) (未知)
@@ -413,10 +393,14 @@ https://stream1.freetv.fun/3d549f839d8441032ab1a90e8897e7384687d7b39cced4f60ea3e
 https://stream1.freetv.fun/cctv16-19.m3u8
 #EXTINF:-1 tvg-name="cctv16",cctv16 (未知)
 https://stream1.freetv.fun/dc455aa85ec9ad8bfc603bb74d352f026ad3f2b30bcacc0a5c1d6cb5e4dd9763.m3u8
+#EXTINF:-1 tvg-name="cctv16",cctv16 (未知)
+https://stream1.freetv.fun/cctv16-40.m3u8
 #EXTINF:-1 tvg-name="cctv16 (IPv6)",cctv16 (IPv6) (未知)
 https://stream1.freetv.fun/90bfaec7908423d502fc444f46d6aa727f5b5d36f67d3492d2ddaa559108372e.m3u8
 #EXTINF:-1 tvg-name="cctv16 (IPv6)",cctv16 (IPv6) (未知)
 https://stream1.freetv.fun/ipv6-cctv16-10.m3u8
+#EXTINF:-1 tvg-name="cctv17",cctv17 (未知)
+https://stream1.freetv.fun/56c9b9c6127098a97833da619a9634fee04917dc5dfe1ac2c7ed9fb4b5747cb1.m3u8
 #EXTINF:-1 tvg-name="cctv17",cctv17 (未知)
 https://stream1.freetv.fun/6958843bcfef5b203ef94d0746073323225bf80e0cea9f33cfb05a692396233d.m3u8
 #EXTINF:-1 tvg-name="cctv17",cctv17 (未知)
@@ -434,10 +418,6 @@ https://stream1.freetv.fun/25cec41aa1ae08fe62515f7360936a4c8d5be480904f31787f8c9
 #EXTINF:-1 tvg-name="cctv17",cctv17 (未知)
 https://stream1.freetv.fun/cctv17-17.m3u8
 #EXTINF:-1 tvg-name="cctv17",cctv17 (未知)
-https://stream1.freetv.fun/fc81fbbacfb04b0ae81bfbc0af49b5e3fbdbf25db51c927dcf1d3b4221651cdc.m3u8
-#EXTINF:-1 tvg-name="cctv17",cctv17 (未知)
-https://stream1.freetv.fun/cctv17-19.m3u8
-#EXTINF:-1 tvg-name="cctv17",cctv17 (未知)
 https://stream1.freetv.fun/e708db23c72b7ff54d1311af9347bd7a3d20831bc1554f0aa3adfd27beb3510f.m3u8
 #EXTINF:-1 tvg-name="cctv17",cctv17 (未知)
 https://stream1.freetv.fun/cctv17-41.m3u8
@@ -447,6 +427,8 @@ https://stream1.freetv.fun/2617cdcb31d7c3e1ddfce03c4588be223f375509a7c234a35ff6b
 https://stream1.freetv.fun/cctv2-29.m3u8
 #EXTINF:-1 tvg-name="cctv2",cctv2 (未知)
 https://stream1.freetv.fun/b24d6fbd38487a58143ba6f9022353eb5d542f021945097ad26ccc7d43988d84.m3u8
+#EXTINF:-1 tvg-name="cctv2",cctv2 (未知)
+https://stream1.freetv.fun/cctv2-68.m3u8
 #EXTINF:-1 tvg-name="cctv2",cctv2 (未知)
 https://stream1.freetv.fun/91af116ab9d49e0b7b1976299faf970b40651dd0e485ab421d05649e890f93ee.m3u8
 #EXTINF:-1 tvg-name="cctv2",cctv2 (未知)
@@ -464,6 +446,8 @@ https://stream1.freetv.fun/20786507e757fe067df9e9efbc2351b1124d211a591d4238ed5ba
 #EXTINF:-1 tvg-name="cctv2",cctv2 (未知)
 https://stream1.freetv.fun/cctv2-51.m3u8
 #EXTINF:-1 tvg-name="cctv2",cctv2 (未知)
+https://stream1.freetv.fun/ddc1240d9cafb3571f6af0ae89031e56412c7501e12876ce26bad8ddfe7a2f52.m3u8
+#EXTINF:-1 tvg-name="cctv2",cctv2 (未知)
 https://stream1.freetv.fun/ccc77f9724e786676ba5afe0965ea489e0a72bf472625688b404670f479f6f8a.m3u8
 #EXTINF:-1 tvg-name="cctv2",cctv2 (未知)
 https://stream1.freetv.fun/cctv2-76.m3u8
@@ -475,6 +459,8 @@ https://stream1.freetv.fun/cctv2-78.m3u8
 https://stream1.freetv.fun/e9ce2600ddd9798bc799287e8e331bbb84716754f777900fa8c20b9d7b376965.m3u8
 #EXTINF:-1 tvg-name="cctv2",cctv2 (未知)
 https://stream1.freetv.fun/cctv2-37.m3u8
+#EXTINF:-1 tvg-name="cctv2",cctv2 (未知)
+https://stream1.freetv.fun/56b3862915fdf5bcf640fee36fc169e6e6e9ca9a44663406cc3ec70d5f278145.m3u8
 #EXTINF:-1 tvg-name="cctv2",cctv2 (未知)
 https://stream1.freetv.fun/0ff1a5df634b89d961ceb79e32ec6f09791aeca7014e15f5f8c6b8a92f5af3f1.m3u8
 #EXTINF:-1 tvg-name="cctv2",cctv2 (未知)
@@ -526,6 +512,8 @@ https://stream1.freetv.fun/cctv3-65.m3u8
 #EXTINF:-1 tvg-name="cctv3",cctv3 (未知)
 https://stream1.freetv.fun/f6e760220823c23e76064af294c797e6a5f5219d492314b02f28a8da361057b4.m3u8
 #EXTINF:-1 tvg-name="cctv3",cctv3 (未知)
+https://stream1.freetv.fun/cctv3-61.m3u8
+#EXTINF:-1 tvg-name="cctv3",cctv3 (未知)
 https://stream1.freetv.fun/febcc276cb8d48b4b2a465c90c18183331a29e686d5529c6c0aae4fe2b9a6c4e.m3u8
 #EXTINF:-1 tvg-name="cctv3",cctv3 (未知)
 https://stream1.freetv.fun/cctv3-2.m3u8
@@ -535,6 +523,8 @@ https://stream1.freetv.fun/c7020b88aea35cfa13268ae17e657ef8e234ba0f8d3c87045520f
 https://stream1.freetv.fun/cctv3-42.m3u8
 #EXTINF:-1 tvg-name="cctv3 (IPv6)",cctv3 (IPv6) (未知)
 https://stream1.freetv.fun/b67ae4b56b7ac6df47e9c81f23cd65455c6c0a5e71de8b1b36345ecc5b3ccedc.m3u8
+#EXTINF:-1 tvg-name="cctv3 (IPv6)",cctv3 (IPv6) (未知)
+https://stream1.freetv.fun/ipv6-cctv3-45.m3u8
 #EXTINF:-1 tvg-name="cctv3 (IPv6)",cctv3 (IPv6) (未知)
 https://stream1.freetv.fun/ce95ca1c8a1b4dabd5e70ceb7456b3cf03c762ca8f75676c3e75178dd3bbe6fa.m3u8
 #EXTINF:-1 tvg-name="cctv3 (IPv6)",cctv3 (IPv6) (未知)
@@ -562,8 +552,6 @@ https://stream1.freetv.fun/cctv4-67.m3u8
 #EXTINF:-1 tvg-name="cctv4",cctv4 (未知)
 https://stream1.freetv.fun/09d6dea42febb619ee6e68faa8cf4e255a8366b33ccb9478248280547eceff81.m3u8
 #EXTINF:-1 tvg-name="cctv4",cctv4 (未知)
-https://stream1.freetv.fun/cctv4-54.m3u8
-#EXTINF:-1 tvg-name="cctv4",cctv4 (未知)
 https://stream1.freetv.fun/15a4180e12b35249c7b2bc9d2b5d2feed983b66d309ca216fc6d8782766a349f.m3u8
 #EXTINF:-1 tvg-name="cctv4",cctv4 (未知)
 https://stream1.freetv.fun/cctv4-49.m3u8
@@ -584,15 +572,13 @@ https://stream1.freetv.fun/c12729822e0fe7b91e322f89dd761e03bd1ee6339eb3b1543f1ad
 #EXTINF:-1 tvg-name="cctv4",cctv4 (未知)
 https://stream1.freetv.fun/cctv4-29.m3u8
 #EXTINF:-1 tvg-name="cctv4",cctv4 (未知)
-https://stream1.freetv.fun/964a51445ff33a4d13e786b28b01992fa55022cfc28c81c5f24497d1131a5d18.m3u8
-#EXTINF:-1 tvg-name="cctv4",cctv4 (未知)
-https://stream1.freetv.fun/cctv4-60.m3u8
-#EXTINF:-1 tvg-name="cctv4",cctv4 (未知)
 https://stream1.freetv.fun/ea1751cfb45b8bdf2efc8b6a0f6f7a91de39a2901ae9801cc4789b37abedae11.m3u8
 #EXTINF:-1 tvg-name="cctv4",cctv4 (未知)
 https://stream1.freetv.fun/cctv4-13.m3u8
 #EXTINF:-1 tvg-name="cctv4 (IPv6)",cctv4 (IPv6) (未知)
 https://stream1.freetv.fun/2d775dbe18822cdac5a52a92edf587ac88cdebdcb14b310e254c376cce5f44d2.m3u8
+#EXTINF:-1 tvg-name="cctv4 (IPv6)",cctv4 (IPv6) (未知)
+https://stream1.freetv.fun/ipv6-cctv4-84.m3u8
 #EXTINF:-1 tvg-name="cctv5",cctv5 (未知)
 https://stream1.freetv.fun/eebd9ea1bb202e2728785eac37f042d6cb52da3d3a6c1745c662f484176cce73.m3u8
 #EXTINF:-1 tvg-name="cctv5",cctv5 (未知)
@@ -666,6 +652,8 @@ https://stream1.freetv.fun/61df3be1490c927a746d671e52c9f9cb197fba5a08184c147a68e
 #EXTINF:-1 tvg-name="cctv5 (IPv6)",cctv5 (IPv6) (未知)
 https://stream1.freetv.fun/ipv6-cctv5-83.m3u8
 #EXTINF:-1 tvg-name="cctv5 plus",cctv5 plus (未知)
+https://stream1.freetv.fun/83b1e6c293f5cf31391d1dde3bdf2dff9feef88eb40a923391f1595f180979e6.m3u8
+#EXTINF:-1 tvg-name="cctv5 plus",cctv5 plus (未知)
 https://stream1.freetv.fun/dff579a80e7bf9c24763810e8db025ecdd1f72f4f0d8263d9473417863105242.m3u8
 #EXTINF:-1 tvg-name="cctv5 plus",cctv5 plus (未知)
 https://stream1.freetv.fun/cctv5-plus-8.m3u8
@@ -677,14 +665,6 @@ https://stream1.freetv.fun/cctv5-plus-37.m3u8
 https://stream1.freetv.fun/532c3357b939dd37cc382d20f03ea82e513c2e9c5160a34292984b68144805af.m3u8
 #EXTINF:-1 tvg-name="cctv5 plus",cctv5 plus (未知)
 https://stream1.freetv.fun/cctv5-plus-45.m3u8
-#EXTINF:-1 tvg-name="cctv5 plus",cctv5 plus (未知)
-https://stream1.freetv.fun/46118cd0438ddbb2d6f349706132ced2104495cf4cf1019ef84d89465e048ca6.m3u8
-#EXTINF:-1 tvg-name="cctv5 plus",cctv5 plus (未知)
-https://stream1.freetv.fun/cctv5-plus-36.m3u8
-#EXTINF:-1 tvg-name="cctv5 plus",cctv5 plus (未知)
-https://stream1.freetv.fun/82f6ed4d011a9b6e7d00a295f5aa7837bdcbb16ffe6b9895ce41502644fc4b8a.m3u8
-#EXTINF:-1 tvg-name="cctv5 plus",cctv5 plus (未知)
-https://stream1.freetv.fun/cctv5-plus-58.m3u8
 #EXTINF:-1 tvg-name="cctv5 plus",cctv5 plus (未知)
 https://stream1.freetv.fun/2e8689323e52e4ec6e81d841ca896be35176372a6d9659185068546585e8dbd5.m3u8
 #EXTINF:-1 tvg-name="cctv5 plus",cctv5 plus (未知)
@@ -703,8 +683,6 @@ https://stream1.freetv.fun/e95f4a846b8ef95b8f6d0a709e6ebba05017681d6ddcd128d2cfb
 https://stream1.freetv.fun/cctv6-73.m3u8
 #EXTINF:-1 tvg-name="cctv6",cctv6 (未知)
 https://stream1.freetv.fun/5a12c88c9512cd7479d46d3de040c03d128c7fc11a41dc1c9ba37eb7153247d9.m3u8
-#EXTINF:-1 tvg-name="cctv6",cctv6 (未知)
-https://stream1.freetv.fun/cctv6-74.m3u8
 #EXTINF:-1 tvg-name="cctv6",cctv6 (未知)
 https://stream1.freetv.fun/63514d6a0cc1d233f91a13749a64b5271fed4f84f47cc884e189a42a4837d620.m3u8
 #EXTINF:-1 tvg-name="cctv6",cctv6 (未知)
@@ -750,10 +728,6 @@ https://stream1.freetv.fun/2112f7c65315f66f4c52c4ebbece3933e0ad380fd499d2c7a24b1
 #EXTINF:-1 tvg-name="cctv7",cctv7 (未知)
 https://stream1.freetv.fun/cctv7-20.m3u8
 #EXTINF:-1 tvg-name="cctv7",cctv7 (未知)
-https://stream1.freetv.fun/a6b6768285f6c310e9f4d042b0f98e14b9d5d6913510e1685e5ae54b87e382d2.m3u8
-#EXTINF:-1 tvg-name="cctv7",cctv7 (未知)
-https://stream1.freetv.fun/cctv7-5.m3u8
-#EXTINF:-1 tvg-name="cctv7",cctv7 (未知)
 https://stream1.freetv.fun/33acfb5aeb4b37ea0b4d12aedbf55cf1053931084ac7df884880cedfb6c0042d.m3u8
 #EXTINF:-1 tvg-name="cctv7",cctv7 (未知)
 https://stream1.freetv.fun/cctv7-67.m3u8
@@ -761,6 +735,8 @@ https://stream1.freetv.fun/cctv7-67.m3u8
 https://stream1.freetv.fun/0e7a6e3465c41dffe831bd4ff05b723b42f040b011aa244a7a9636b16d9c3daa.m3u8
 #EXTINF:-1 tvg-name="cctv7",cctv7 (未知)
 https://stream1.freetv.fun/cctv7-83.m3u8
+#EXTINF:-1 tvg-name="cctv7",cctv7 (未知)
+https://stream1.freetv.fun/782b27b7a038d2eaa290d863fb13716d861af5dec099c1e3bcef8884b9139549.m3u8
 #EXTINF:-1 tvg-name="cctv7",cctv7 (未知)
 https://stream1.freetv.fun/4487654e11c2e318182d5ce55626683b2391d7a7cc9555dc21405d309f2c5682.m3u8
 #EXTINF:-1 tvg-name="cctv7",cctv7 (未知)
@@ -779,6 +755,8 @@ https://stream1.freetv.fun/2eb8a4aa3d47127e9c1bcc0c881a9fd01efa3909bf801258a7e07
 https://stream1.freetv.fun/cctv7-78.m3u8
 #EXTINF:-1 tvg-name="cctv7",cctv7 (未知)
 https://stream1.freetv.fun/79834e11f92f2d6a40ee7474e2f8f01a88c85e5d84b33a7f0ab13d67b0604a88.m3u8
+#EXTINF:-1 tvg-name="cctv7",cctv7 (未知)
+https://stream1.freetv.fun/cctv7-22.m3u8
 #EXTINF:-1 tvg-name="cctv7 (IPv6)",cctv7 (IPv6) (未知)
 https://stream1.freetv.fun/a02181954d7aa8e81152dacfab214b19accc8db433d16626753d489024f11d3f.m3u8
 #EXTINF:-1 tvg-name="cctv7 (IPv6)",cctv7 (IPv6) (未知)
@@ -791,6 +769,8 @@ https://stream1.freetv.fun/ipv6-cctv7-12.m3u8
 https://stream1.freetv.fun/6b96ca76e761b3f9d2910b736f096579ace5ff4fe2117b5d7e050f73362451a4.m3u8
 #EXTINF:-1 tvg-name="cctv7 (IPv6)",cctv7 (IPv6) (未知)
 https://stream1.freetv.fun/ipv6-cctv7-53.m3u8
+#EXTINF:-1 tvg-name="cctv7 (IPv6)",cctv7 (IPv6) (未知)
+https://stream1.freetv.fun/54f3a8323398dd0fa79338efbe5854af474cc22866d3f873ad17a9906e9617d2.m3u8
 #EXTINF:-1 tvg-name="cctv8",cctv8 (未知)
 https://stream1.freetv.fun/e3f5b4308b1d77df41f79f0b270233c39ff6622319cfcbf7286591cf4ee3a757.m3u8
 #EXTINF:-1 tvg-name="cctv8",cctv8 (未知)
@@ -838,12 +818,6 @@ https://stream1.freetv.fun/cctv8-3.m3u8
 #EXTINF:-1 tvg-name="cctv8",cctv8 (未知)
 https://stream1.freetv.fun/7b5a6ea4439bfeeaf4f08a40e82f05988c6002bb7dca67ac7c2d61d1efca6ac7.m3u8
 #EXTINF:-1 tvg-name="cctv8",cctv8 (未知)
-https://stream1.freetv.fun/cctv8-26.m3u8
-#EXTINF:-1 tvg-name="cctv8",cctv8 (未知)
-https://stream1.freetv.fun/1ec89e16529470d2d86316692034532cb02bbbc0e1d24b66a7dc42b18c5abf7f.m3u8
-#EXTINF:-1 tvg-name="cctv8",cctv8 (未知)
-https://stream1.freetv.fun/cctv8-47.m3u8
-#EXTINF:-1 tvg-name="cctv8",cctv8 (未知)
 https://stream1.freetv.fun/3225eb155544574a700436db6d094e599b30f49fff403194afc9b43d7388352c.m3u8
 #EXTINF:-1 tvg-name="cctv8",cctv8 (未知)
 https://stream1.freetv.fun/cctv8-37.m3u8
@@ -872,10 +846,6 @@ https://stream1.freetv.fun/8eceda551df80b2fa7d5e0f4187a16dc7245aa6202dc8d2db9710
 #EXTINF:-1 tvg-name="cctv9",cctv9 (未知)
 https://stream1.freetv.fun/cctv9-60.m3u8
 #EXTINF:-1 tvg-name="cctv9",cctv9 (未知)
-https://stream1.freetv.fun/3dffb0bca82158a57b260e7464acb554f0d888fc32a7b2f366380c4c0adc7ef5.m3u8
-#EXTINF:-1 tvg-name="cctv9",cctv9 (未知)
-https://stream1.freetv.fun/cctv9-75.m3u8
-#EXTINF:-1 tvg-name="cctv9",cctv9 (未知)
 https://stream1.freetv.fun/f4705979dfb0c7f5a64db0b7303143940b980841c62a57f4ec76b8b6037f9cf7.m3u8
 #EXTINF:-1 tvg-name="cctv9",cctv9 (未知)
 https://stream1.freetv.fun/cctv9-49.m3u8
@@ -885,6 +855,8 @@ https://stream1.freetv.fun/3c6125aad8eab2287c7cb76da027f3e9673949eec3709dc9f3fd0
 https://stream1.freetv.fun/cctv9-34.m3u8
 #EXTINF:-1 tvg-name="cctv9",cctv9 (未知)
 https://stream1.freetv.fun/d7e6e14441711b44112b694d4bd4878507bfcb184e1c00c42d88cd82cb56a875.m3u8
+#EXTINF:-1 tvg-name="cctv9",cctv9 (未知)
+https://stream1.freetv.fun/cctv9-30.m3u8
 #EXTINF:-1 tvg-name="cctv9",cctv9 (未知)
 https://stream1.freetv.fun/8ed9d7c3d80e951d144c16e49df97faccee81760765d6c44cbde00668cc98bf6.m3u8
 #EXTINF:-1 tvg-name="cctv9",cctv9 (未知)
@@ -901,6 +873,8 @@ https://stream1.freetv.fun/dong-nan-wei-shi-87.m3u8
 https://stream1.freetv.fun/cad535307bc4dec0b5a63d83222318cecbfc46916195e1da00965a47b5fddc78.m3u8
 #EXTINF:-1 tvg-name="东南卫视",东南卫视 (未知)
 https://stream1.freetv.fun/dong-nan-wei-shi-5.m3u8
+#EXTINF:-1 tvg-name="东南卫视",东南卫视 (未知)
+https://stream1.freetv.fun/db283d0afcc8dca3aead13761073cbc6ec1d28690e4041e07c7bbcd4f3442795.m3u8
 #EXTINF:-1 tvg-name="东南卫视",东南卫视 (未知)
 https://stream1.freetv.fun/bf437d113b5326c63689e186eb8889b90b03e72e8d76ce2b53632abc40872343.m3u8
 #EXTINF:-1 tvg-name="东南卫视",东南卫视 (未知)
@@ -937,6 +911,8 @@ https://stream1.freetv.fun/ipv6-dong-nan-wei-shi-67.m3u8
 https://stream1.freetv.fun/70abcb0b881539f6eca28137e803ff5f7ec964873f03cbb563f5dd595940ab2c.m3u8
 #EXTINF:-1 tvg-name="东南卫视 (IPv6)",东南卫视 (IPv6) (未知)
 https://stream1.freetv.fun/ipv6-dong-nan-wei-shi-45.m3u8
+#EXTINF:-1 tvg-name="云南卫视",云南卫视 (未知)
+https://stream1.freetv.fun/5e4e47cb0e5a647397186a746a23297aa3a3de01cb7aef30d5465d3fdbcc6200.m3u8
 #EXTINF:-1 tvg-name="云南卫视",云南卫视 (未知)
 https://stream1.freetv.fun/ba098811beaf419a33a44603c6a7ebcf7063de6588e67c435ace521044a6b4fe.m3u8
 #EXTINF:-1 tvg-name="云南卫视",云南卫视 (未知)
@@ -1005,8 +981,6 @@ https://stream1.freetv.fun/nei-meng-gu-wei-shi-8.m3u8
 https://stream1.freetv.fun/4771a189ad19420bb986b757be6eebee1b68d9f586e1580a742e4a63d015a966.m3u8
 #EXTINF:-1 tvg-name="内蒙古卫视",内蒙古卫视 (未知)
 https://stream1.freetv.fun/nei-meng-gu-wei-shi-38.m3u8
-#EXTINF:-1 tvg-name="内蒙古卫视",内蒙古卫视 (未知)
-https://stream1.freetv.fun/1e5dc1f802d7775ea9cde7b7b874b914365797c6718c5e95448aa26648e136e6.m3u8
 #EXTINF:-1 tvg-name="内蒙古卫视 (IPv6)",内蒙古卫视 (IPv6) (未知)
 https://stream1.freetv.fun/263e5a5eb28d709848af0b6e283422b92c4de866d01f1ccaebd57b2358f24c18.m3u8
 #EXTINF:-1 tvg-name="内蒙古卫视 (IPv6)",内蒙古卫视 (IPv6) (未知)
@@ -1016,11 +990,15 @@ https://stream1.freetv.fun/3613799027c7d64d6ab4ee57247de6a82c45b329e31c67de09593
 #EXTINF:-1 tvg-name="内蒙古卫视 (IPv6)",内蒙古卫视 (IPv6) (未知)
 https://stream1.freetv.fun/ipv6-nei-meng-gu-wei-shi-20.m3u8
 #EXTINF:-1 tvg-name="北京卫视",北京卫视 (未知)
+https://stream1.freetv.fun/20523fbd8237a4463a089cd568d8b257cc1d11371e477e362a5deb6caed62a32.m3u8
+#EXTINF:-1 tvg-name="北京卫视",北京卫视 (未知)
 https://stream1.freetv.fun/1ae3e9d132447cdd8f00945243dae36aa87f698cc2ad0664ed0542b93ce6a1b8.m3u8
 #EXTINF:-1 tvg-name="北京卫视",北京卫视 (未知)
 https://stream1.freetv.fun/bei-jing-wei-shi-89.m3u8
 #EXTINF:-1 tvg-name="北京卫视",北京卫视 (未知)
 https://stream1.freetv.fun/48d851cb4a42f1fdd2084b5bf923535710af9055947b75dab028cfa39468579c.m3u8
+#EXTINF:-1 tvg-name="北京卫视",北京卫视 (未知)
+https://stream1.freetv.fun/bei-jing-wei-shi-33.m3u8
 #EXTINF:-1 tvg-name="北京卫视",北京卫视 (未知)
 https://stream1.freetv.fun/ca3e90ee1455c67b3bb0a5300a32f180a3f2c75395d9f2b0979794181f3972c9.m3u8
 #EXTINF:-1 tvg-name="北京卫视",北京卫视 (未知)
@@ -1062,13 +1040,13 @@ https://stream1.freetv.fun/bca8d86d5cea830b4fae87432abddb618cfb3bbe67808aa453cc2
 #EXTINF:-1 tvg-name="吉林卫视",吉林卫视 (未知)
 https://stream1.freetv.fun/ji-lin-wei-shi-38.m3u8
 #EXTINF:-1 tvg-name="吉林卫视",吉林卫视 (未知)
+https://stream1.freetv.fun/ce6178515677ec89fa08dd39d1fd598aa7c951965d66bcaf38c6634d50c96d65.m3u8
+#EXTINF:-1 tvg-name="吉林卫视",吉林卫视 (未知)
 https://stream1.freetv.fun/f60559ff6312c1abdb5eedf1a7ff7912163336297eb6de0879410f13e1160914.m3u8
 #EXTINF:-1 tvg-name="吉林卫视",吉林卫视 (未知)
 https://stream1.freetv.fun/ji-lin-wei-shi-60.m3u8
 #EXTINF:-1 tvg-name="吉林卫视",吉林卫视 (未知)
-https://stream1.freetv.fun/20ec706dec67b36d8bd933921ddc77d953bdbb5db85ceb51b4235469b7fa23b2.m3u8
-#EXTINF:-1 tvg-name="吉林卫视",吉林卫视 (未知)
-https://stream1.freetv.fun/ji-lin-wei-shi-69.m3u8
+https://stream1.freetv.fun/fb031764e293980976ef33a163b16e69a0bc10761f6ddf8e45f9ea9506f41eb0.m3u8
 #EXTINF:-1 tvg-name="吉林卫视",吉林卫视 (未知)
 https://stream1.freetv.fun/f845c6ed628a3f947bccdcffba4f8384f1d72236bebee05710123de7850c62b7.m3u8
 #EXTINF:-1 tvg-name="吉林卫视",吉林卫视 (未知)
@@ -1085,14 +1063,6 @@ https://stream1.freetv.fun/ipv6-ji-lin-wei-shi-25.m3u8
 https://stream1.freetv.fun/9b2b6109a8b20597e52c1c16cf0361b64377499304d3829763883dfe7748e8a7.m3u8
 #EXTINF:-1 tvg-name="吉林卫视 (IPv6)",吉林卫视 (IPv6) (未知)
 https://stream1.freetv.fun/ipv6-ji-lin-wei-shi-37.m3u8
-#EXTINF:-1 tvg-name="四川卫视",四川卫视 (未知)
-https://stream1.freetv.fun/1f0236ac4b2a4c1ee3c72d18710342dbc885bb3a42713c9889b2e647d0f9458f.m3u8
-#EXTINF:-1 tvg-name="四川卫视",四川卫视 (未知)
-https://stream1.freetv.fun/si-chuan-wei-shi-44.m3u8
-#EXTINF:-1 tvg-name="四川卫视",四川卫视 (未知)
-https://stream1.freetv.fun/268d818992e683df9e6407f2a4d06a15c647ee0c1db623d8676a2303aa73f349.m3u8
-#EXTINF:-1 tvg-name="四川卫视",四川卫视 (未知)
-https://stream1.freetv.fun/si-chuan-wei-shi-62.m3u8
 #EXTINF:-1 tvg-name="四川卫视",四川卫视 (未知)
 https://stream1.freetv.fun/cb9733da669a9efdb2a1cbb184dd9e4a691557f9212a187b8c1fe393c40e051b.m3u8
 #EXTINF:-1 tvg-name="四川卫视",四川卫视 (未知)
@@ -1121,10 +1091,6 @@ https://stream1.freetv.fun/si-chuan-wei-shi-76.m3u8
 https://stream1.freetv.fun/1f6ac7d82233ee734e6065f5c7b52d01bc04dcbbb40447cdd9d9509dc36318d6.m3u8
 #EXTINF:-1 tvg-name="四川卫视",四川卫视 (未知)
 https://stream1.freetv.fun/si-chuan-wei-shi-93.m3u8
-#EXTINF:-1 tvg-name="四川卫视",四川卫视 (未知)
-https://stream1.freetv.fun/c2d9619f6b152dda29c27b52aa3e4efac5781fa677715d66a8a6ba9f0a7f3571.m3u8
-#EXTINF:-1 tvg-name="四川卫视",四川卫视 (未知)
-https://stream1.freetv.fun/si-chuan-wei-shi-18.m3u8
 #EXTINF:-1 tvg-name="四川卫视 (IPv6)",四川卫视 (IPv6) (未知)
 https://stream1.freetv.fun/7517a57393152a87736b70419c4f52cd01e317a6c75a21482f4c6542d6cce74d.m3u8
 #EXTINF:-1 tvg-name="四川卫视 (IPv6)",四川卫视 (IPv6) (未知)
@@ -1135,8 +1101,6 @@ https://stream1.freetv.fun/429dcb4a04e1d9712132f797b2c840cff8bcf043358d1d74bf3b9
 https://stream1.freetv.fun/ipv6-si-chuan-wei-shi-11.m3u8
 #EXTINF:-1 tvg-name="天津卫视",天津卫视 (未知)
 https://stream1.freetv.fun/22982672b99e6533f28b955ef4f3352fc283b94447e7bed1a1e6b65285c41d45.m3u8
-#EXTINF:-1 tvg-name="天津卫视",天津卫视 (未知)
-https://stream1.freetv.fun/tian-jin-wei-shi-13.m3u8
 #EXTINF:-1 tvg-name="天津卫视",天津卫视 (未知)
 https://stream1.freetv.fun/7f43f93ca4a0e9275b0c15b91a9a4c082ca88dbdaa70457f3c541fb04981a072.m3u8
 #EXTINF:-1 tvg-name="天津卫视",天津卫视 (未知)
@@ -1174,6 +1138,10 @@ https://stream1.freetv.fun/4bafa8b28ae13b03c0a8748b7290f2e013080913a8ce1db58a502
 #EXTINF:-1 tvg-name="天津卫视 (IPv6)",天津卫视 (IPv6) (未知)
 https://stream1.freetv.fun/ipv6-tian-jin-wei-shi-45.m3u8
 #EXTINF:-1 tvg-name="安徽卫视",安徽卫视 (未知)
+https://stream1.freetv.fun/3260a16283ae30abac6eb5c9ec057dbcb3080062e142ef98f8da5a5692c2d533.m3u8
+#EXTINF:-1 tvg-name="安徽卫视",安徽卫视 (未知)
+https://stream1.freetv.fun/5f74144a1976a37b71cd1389694e22e96f629e1f167a2d7a138af75976d8b00a.m3u8
+#EXTINF:-1 tvg-name="安徽卫视",安徽卫视 (未知)
 https://stream1.freetv.fun/fabba9ca376619e4f20e2e24f921a34fc246c14b69b331e0c41dcae6809ce555.m3u8
 #EXTINF:-1 tvg-name="安徽卫视",安徽卫视 (未知)
 https://stream1.freetv.fun/an-hui-wei-shi-36.m3u8
@@ -1201,8 +1169,6 @@ https://stream1.freetv.fun/an-hui-wei-shi-42.m3u8
 https://stream1.freetv.fun/11f342d32e4e1c40fbf1f999c0a163173d8a90d72f2241d66a228145a705c659.m3u8
 #EXTINF:-1 tvg-name="安徽卫视",安徽卫视 (未知)
 https://stream1.freetv.fun/an-hui-wei-shi-8.m3u8
-#EXTINF:-1 tvg-name="安徽卫视",安徽卫视 (未知)
-https://stream1.freetv.fun/5b4822a5ec2db203657ad69a37c8ee684490003ec64dfd80eb0c8074110f60e2.m3u8
 #EXTINF:-1 tvg-name="安徽卫视 (IPv6)",安徽卫视 (IPv6) (未知)
 https://stream1.freetv.fun/30b63433b5f28577cba95a96a431244d0cdf7f8871329bdadb1c7a7c8441f40b.m3u8
 #EXTINF:-1 tvg-name="安徽卫视 (IPv6)",安徽卫视 (IPv6) (未知)
@@ -1226,7 +1192,11 @@ https://stream1.freetv.fun/shan-dong-wei-shi-52.m3u8
 #EXTINF:-1 tvg-name="山东卫视",山东卫视 (未知)
 https://stream1.freetv.fun/22b1b214ae8491fe44102d564da4ee8b563f8ac9f94734edee9912b81e2156c3.m3u8
 #EXTINF:-1 tvg-name="山东卫视",山东卫视 (未知)
+https://stream1.freetv.fun/shan-dong-wei-shi-16.m3u8
+#EXTINF:-1 tvg-name="山东卫视",山东卫视 (未知)
 https://stream1.freetv.fun/54140857d1dea7def315a7141a74cec5181f89f5ed55245835852979617e582a.m3u8
+#EXTINF:-1 tvg-name="山东卫视",山东卫视 (未知)
+https://stream1.freetv.fun/shan-dong-wei-shi-57.m3u8
 #EXTINF:-1 tvg-name="山东卫视",山东卫视 (未知)
 https://stream1.freetv.fun/9fbb8398f5e5dcb05d44c62eee135b3a3a238cc74d1bbcbb70c3745af1e5c3fb.m3u8
 #EXTINF:-1 tvg-name="山东卫视",山东卫视 (未知)
@@ -1247,8 +1217,6 @@ https://stream1.freetv.fun/shan-dong-wei-shi-77.m3u8
 https://stream1.freetv.fun/220190fbb76291005f7129d1553ddad9ecc1d70bceaeca80ca0caef936c06861.m3u8
 #EXTINF:-1 tvg-name="山东卫视",山东卫视 (未知)
 https://stream1.freetv.fun/shan-dong-wei-shi-78.m3u8
-#EXTINF:-1 tvg-name="山东卫视",山东卫视 (未知)
-https://stream1.freetv.fun/6ae72c2ed9e03972d255c19be7f49c4731d8c51bfd1dfc150e73a2d7a132235d.m3u8
 #EXTINF:-1 tvg-name="山东卫视 (IPv6)",山东卫视 (IPv6) (未知)
 https://stream1.freetv.fun/b6be85c55dbe18a5d423a00ea9d2872c3729277fb9571d01bf838fa19de5040b.m3u8
 #EXTINF:-1 tvg-name="山东卫视 (IPv6)",山东卫视 (IPv6) (未知)
@@ -1263,6 +1231,8 @@ https://stream1.freetv.fun/b9cf82cda1e45d172dd68d4a0ac0b19a3e0cd62b2f614c80d4b04
 https://stream1.freetv.fun/shan-xi-wei-shi-94.m3u8
 #EXTINF:-1 tvg-name="山西卫视",山西卫视 (未知)
 https://stream1.freetv.fun/62585ca065b0e50a8dc91b341acc3323d2f0e3da55c4c42f159731e6e13b2864.m3u8
+#EXTINF:-1 tvg-name="山西卫视",山西卫视 (未知)
+https://stream1.freetv.fun/shan-xi-wei-shi-95.m3u8
 #EXTINF:-1 tvg-name="山西卫视",山西卫视 (未知)
 https://stream1.freetv.fun/36bb758e23402d833fc14af62d7752aa20e0d7fd62f95ddfe677092846d8e2b6.m3u8
 #EXTINF:-1 tvg-name="山西卫视",山西卫视 (未知)
@@ -1304,8 +1274,6 @@ https://stream1.freetv.fun/94ac30a77cc14c45b9c04a4ea132b314ef9ab82c51bfa1249454a
 #EXTINF:-1 tvg-name="广东卫视",广东卫视 (未知)
 https://stream1.freetv.fun/yan-dong-wei-shi-92.m3u8
 #EXTINF:-1 tvg-name="广东卫视",广东卫视 (未知)
-https://stream1.freetv.fun/d99ebf6380ce5401b8b49d60a1ad48958939ea0748012600f594812f43daf187.m3u8
-#EXTINF:-1 tvg-name="广东卫视",广东卫视 (未知)
 https://stream1.freetv.fun/7d8b7600b5346ff1a34e1c2722614350643c1ee064b0d73370a92bb561a5980d.m3u8
 #EXTINF:-1 tvg-name="广东卫视",广东卫视 (未知)
 https://stream1.freetv.fun/yan-dong-wei-shi-12.m3u8
@@ -1334,6 +1302,8 @@ https://stream1.freetv.fun/ffc82d54938635df63addc04bd74c9eb26d0f171a5c134827b407
 #EXTINF:-1 tvg-name="广西卫视",广西卫视 (未知)
 https://stream1.freetv.fun/yan-xi-wei-shi-65.m3u8
 #EXTINF:-1 tvg-name="广西卫视",广西卫视 (未知)
+https://stream1.freetv.fun/d7b6a3939cda4d39694c346a5a9a0a2cd3b9f9a050c60ada9816d37eba564184.m3u8
+#EXTINF:-1 tvg-name="广西卫视",广西卫视 (未知)
 https://stream1.freetv.fun/9bb0ff42fb996240aae9bd7ebf453879ebc293b88d043d5134c5a0f883d74c2a.m3u8
 #EXTINF:-1 tvg-name="广西卫视",广西卫视 (未知)
 https://stream1.freetv.fun/yan-xi-wei-shi-14.m3u8
@@ -1358,10 +1328,6 @@ https://stream1.freetv.fun/9786e0b8a3285cf7004eb732dbbf4b30a6fd60876ead1fb258187
 #EXTINF:-1 tvg-name="广西卫视",广西卫视 (未知)
 https://stream1.freetv.fun/yan-xi-wei-shi-6.m3u8
 #EXTINF:-1 tvg-name="广西卫视",广西卫视 (未知)
-https://stream1.freetv.fun/f91f789a07a2843f5f2ecc56a83737340fca354c28776008a87eab04a681d75a.m3u8
-#EXTINF:-1 tvg-name="广西卫视",广西卫视 (未知)
-https://stream1.freetv.fun/yan-xi-wei-shi-83.m3u8
-#EXTINF:-1 tvg-name="广西卫视",广西卫视 (未知)
 https://stream1.freetv.fun/4c867fa060d93364fea14f76352726bd2ebc55be6154220cd9adac87ffdb4728.m3u8
 #EXTINF:-1 tvg-name="广西卫视",广西卫视 (未知)
 https://stream1.freetv.fun/yan-xi-wei-shi-29.m3u8
@@ -1381,10 +1347,6 @@ https://stream1.freetv.fun/xin-jiang-wei-shi-44.m3u8
 https://stream1.freetv.fun/1502cae42c3eb4c7545cd9fd4d92d70f8d2a3627d6b067167c91ec8e8727a46e.m3u8
 #EXTINF:-1 tvg-name="新疆卫视",新疆卫视 (未知)
 https://stream1.freetv.fun/xin-jiang-wei-shi-41.m3u8
-#EXTINF:-1 tvg-name="新疆卫视",新疆卫视 (未知)
-https://stream1.freetv.fun/b8566ee483e7e934d57beff2ef5410bcc1c4f0c120eea45afafec6a80af7abca.m3u8
-#EXTINF:-1 tvg-name="新疆卫视",新疆卫视 (未知)
-https://stream1.freetv.fun/xin-jiang-wei-shi-11.m3u8
 #EXTINF:-1 tvg-name="新疆卫视",新疆卫视 (未知)
 https://stream1.freetv.fun/608a06a32b68057e1283aba3b325406654de82fe3bdb70151cdca3ac65a9c6d0.m3u8
 #EXTINF:-1 tvg-name="新疆卫视",新疆卫视 (未知)
@@ -1408,6 +1370,8 @@ https://stream1.freetv.fun/xin-jiang-wei-shi-36.m3u8
 #EXTINF:-1 tvg-name="新疆卫视",新疆卫视 (未知)
 https://stream1.freetv.fun/04f0088c1cdfec6ca713ee7e17ff1f99c8b8c5f0778cc1faa3068091afa6e012.m3u8
 #EXTINF:-1 tvg-name="新疆卫视",新疆卫视 (未知)
+https://stream1.freetv.fun/xin-jiang-wei-shi-54.m3u8
+#EXTINF:-1 tvg-name="新疆卫视",新疆卫视 (未知)
 https://stream1.freetv.fun/38a7b62f90c723e1fc8be87904f40eceeaa656f1a58bcb0ad2f6301bda5452dc.m3u8
 #EXTINF:-1 tvg-name="新疆卫视",新疆卫视 (未知)
 https://stream1.freetv.fun/xin-jiang-wei-shi-23.m3u8
@@ -1428,9 +1392,9 @@ https://stream1.freetv.fun/ff50600dd45b1b1656f2f7535c04f361a6e8c33606e19dbc9b031
 #EXTINF:-1 tvg-name="新疆卫视 (IPv6)",新疆卫视 (IPv6) (未知)
 https://stream1.freetv.fun/ipv6-xin-jiang-wei-shi-14.m3u8
 #EXTINF:-1 tvg-name="江苏卫视",江苏卫视 (未知)
-https://stream1.freetv.fun/8fb562eaef33558c822d19687735f691ccd260e9d4ebaf9fe6d046574191ea3e.m3u8
+https://stream1.freetv.fun/9fef8e2f05f7539b9cdfd980cffc0da9674a0c44e1feb34bba58feb2fc2957dd.m3u8
 #EXTINF:-1 tvg-name="江苏卫视",江苏卫视 (未知)
-https://stream1.freetv.fun/jiang-su-wei-shi-17.m3u8
+https://stream1.freetv.fun/0135da5c7044214df0a494aafde08fc2fa5787c20c391fc76bdce2321417d4a1.m3u8
 #EXTINF:-1 tvg-name="江苏卫视",江苏卫视 (未知)
 https://stream1.freetv.fun/a36bf102c616caed6d75bdbcafd48786253f7828d67752d49c7f3184923311f3.m3u8
 #EXTINF:-1 tvg-name="江苏卫视",江苏卫视 (未知)
@@ -1449,10 +1413,6 @@ https://stream1.freetv.fun/257cde70337b6f54e49e911c2c5cc8049c829bdfb7cf2ebde2e4b
 https://stream1.freetv.fun/8803542d7a49d90fc141b3373ac76d8caca473c22cd4e19370f290989600b03f.m3u8
 #EXTINF:-1 tvg-name="江苏卫视",江苏卫视 (未知)
 https://stream1.freetv.fun/jiang-su-wei-shi-19.m3u8
-#EXTINF:-1 tvg-name="江苏卫视",江苏卫视 (未知)
-https://stream1.freetv.fun/3c400e138a465843c4649277da9e6ae4b996405d5c3421d1009bed70012d3b24.m3u8
-#EXTINF:-1 tvg-name="江苏卫视",江苏卫视 (未知)
-https://stream1.freetv.fun/jiang-su-wei-shi-43.m3u8
 #EXTINF:-1 tvg-name="江苏卫视",江苏卫视 (未知)
 https://stream1.freetv.fun/d603dff9bd97cd0af111d22f7e7559d5811119df07427c3896440285361868da.m3u8
 #EXTINF:-1 tvg-name="江苏卫视",江苏卫视 (未知)
@@ -1478,6 +1438,8 @@ https://stream1.freetv.fun/a6a562c83ba7aa36dd7c2873f549a7b13ab7a405b907e1d975d18
 #EXTINF:-1 tvg-name="江西卫视",江西卫视 (未知)
 https://stream1.freetv.fun/jiang-xi-wei-shi-68.m3u8
 #EXTINF:-1 tvg-name="江西卫视",江西卫视 (未知)
+https://stream1.freetv.fun/87211b9d4bc7cbb0b86b5add15172fa3f20ef6b761d5f3bfc10d17435c759a88.m3u8
+#EXTINF:-1 tvg-name="江西卫视",江西卫视 (未知)
 https://stream1.freetv.fun/6fc6ddd816336ba00557851ecfa4b3e581f4870e83d8224098425f66ee5eb591.m3u8
 #EXTINF:-1 tvg-name="江西卫视",江西卫视 (未知)
 https://stream1.freetv.fun/jiang-xi-wei-shi-92.m3u8
@@ -1498,6 +1460,8 @@ https://stream1.freetv.fun/73435335855ff9107b96f969ea657ca14757fc7515b648caa4d49
 #EXTINF:-1 tvg-name="江西卫视",江西卫视 (未知)
 https://stream1.freetv.fun/jiang-xi-wei-shi-65.m3u8
 #EXTINF:-1 tvg-name="江西卫视",江西卫视 (未知)
+https://stream1.freetv.fun/86179b1f289aa8b51e4928da988deaec8800e0320e924796f5e05e51ed151777.m3u8
+#EXTINF:-1 tvg-name="江西卫视",江西卫视 (未知)
 https://stream1.freetv.fun/8940d7bc27684c61b38a0a9289e3b624387eebea5adfbc7557f09f65cf20f0eb.m3u8
 #EXTINF:-1 tvg-name="江西卫视",江西卫视 (未知)
 https://stream1.freetv.fun/jiang-xi-wei-shi-37.m3u8
@@ -1513,10 +1477,6 @@ https://stream1.freetv.fun/jiang-xi-wei-shi-35.m3u8
 https://stream1.freetv.fun/3268c9bdf17d530b54c0e4a59bc66561a4fffec970ca13cb6c0f49156947c63e.m3u8
 #EXTINF:-1 tvg-name="江西卫视",江西卫视 (未知)
 https://stream1.freetv.fun/jiang-xi-wei-shi-21.m3u8
-#EXTINF:-1 tvg-name="江西卫视",江西卫视 (未知)
-https://stream1.freetv.fun/b99cfef14e64a12c8ff2231565ad2189ac9d218dd8082417314419c630f6e238.m3u8
-#EXTINF:-1 tvg-name="江西卫视",江西卫视 (未知)
-https://stream1.freetv.fun/jiang-xi-wei-shi-23.m3u8
 #EXTINF:-1 tvg-name="江西卫视",江西卫视 (未知)
 https://stream1.freetv.fun/9b0ab5df7f1d9cc5e5fa4263ecfd80bdb7a042031fec72c5917aa4cc8f33230e.m3u8
 #EXTINF:-1 tvg-name="江西卫视",江西卫视 (未知)
@@ -1538,6 +1498,8 @@ https://stream1.freetv.fun/b6129199d32bae0643d0a5e5d81e78b59a7b056a606f0e01f1994
 #EXTINF:-1 tvg-name="河北卫视",河北卫视 (未知)
 https://stream1.freetv.fun/he-bei-wei-shi-9.m3u8
 #EXTINF:-1 tvg-name="河北卫视",河北卫视 (未知)
+https://stream1.freetv.fun/c59a39c7ac3b344420f60a6b670e65071d4bfe034dbd8b455b17bd7f4b5a406f.m3u8
+#EXTINF:-1 tvg-name="河北卫视",河北卫视 (未知)
 https://stream1.freetv.fun/707c4e9c057f6db662e306f7dd6621b587654edac63c6b4d420bf05d63076aee.m3u8
 #EXTINF:-1 tvg-name="河北卫视",河北卫视 (未知)
 https://stream1.freetv.fun/he-bei-wei-shi-35.m3u8
@@ -1554,6 +1516,8 @@ https://stream1.freetv.fun/7635483febf586ad223eb70dac5295da82b009b40363969e844e1
 #EXTINF:-1 tvg-name="河北卫视",河北卫视 (未知)
 https://stream1.freetv.fun/he-bei-wei-shi-81.m3u8
 #EXTINF:-1 tvg-name="河北卫视 (IPv6)",河北卫视 (IPv6) (未知)
+https://stream1.freetv.fun/b78d3d80fa3291de20123369c620f0a61a40b2c5857fcfc84da69de77f4d887b.m3u8
+#EXTINF:-1 tvg-name="河北卫视 (IPv6)",河北卫视 (IPv6) (未知)
 https://stream1.freetv.fun/53800b472ac1869f0e75f5c2b17fdee144590e10b746f523425fd6ee5cc9b490.m3u8
 #EXTINF:-1 tvg-name="河北卫视 (IPv6)",河北卫视 (IPv6) (未知)
 https://stream1.freetv.fun/ipv6-he-bei-wei-shi-24.m3u8
@@ -1566,11 +1530,13 @@ https://stream1.freetv.fun/3c7a6704bf7d5d1849fbc02915839984a2c2558c384cd16186132
 #EXTINF:-1 tvg-name="河南卫视",河南卫视 (未知)
 https://stream1.freetv.fun/he-nan-wei-shi-61.m3u8
 #EXTINF:-1 tvg-name="河南卫视",河南卫视 (未知)
+https://stream1.freetv.fun/7d4da877f9b53be50b1b2a7c010781ae8cf8b7b1bf38bd24e83bce1971d8146b.m3u8
+#EXTINF:-1 tvg-name="河南卫视",河南卫视 (未知)
+https://stream1.freetv.fun/3ba20cd120a608446b9b1fab73bdcb6ef31c97600e98c175c809f675e15f72c5.m3u8
+#EXTINF:-1 tvg-name="河南卫视",河南卫视 (未知)
 https://stream1.freetv.fun/07521fe2ef5c036aaebb05071822b7d1668fe16c0e0d4c016070ac5d7b9ae0ea.m3u8
 #EXTINF:-1 tvg-name="河南卫视",河南卫视 (未知)
 https://stream1.freetv.fun/he-nan-wei-shi-52.m3u8
-#EXTINF:-1 tvg-name="河南卫视",河南卫视 (未知)
-https://stream1.freetv.fun/6725cbfc8b48e39a9e353ee9da258c0dfb61c25b056e00548e693d11fbe836d5.m3u8
 #EXTINF:-1 tvg-name="河南卫视",河南卫视 (未知)
 https://stream1.freetv.fun/aaadc697bfacbe581ebff128ed20deb208b54f1c87f4faef6374eb47ca633cc5.m3u8
 #EXTINF:-1 tvg-name="河南卫视",河南卫视 (未知)
@@ -1588,8 +1554,6 @@ https://stream1.freetv.fun/fecfeaf52722969c8ae4de25d50069656b841053e6927e441f392
 #EXTINF:-1 tvg-name="河南卫视",河南卫视 (未知)
 https://stream1.freetv.fun/he-nan-wei-shi-86.m3u8
 #EXTINF:-1 tvg-name="河南卫视",河南卫视 (未知)
-https://stream1.freetv.fun/0b83429accbb5e7cabfb97b00c8748a5606237decccf6e738e3da423ff20fc4c.m3u8
-#EXTINF:-1 tvg-name="河南卫视",河南卫视 (未知)
 https://stream1.freetv.fun/2e110535b415adb85de384221124aaca09d4809a3ab71a234eedb2b3f736aa99.m3u8
 #EXTINF:-1 tvg-name="河南卫视",河南卫视 (未知)
 https://stream1.freetv.fun/he-nan-wei-shi-5.m3u8
@@ -1601,18 +1565,14 @@ https://stream1.freetv.fun/he-nan-wei-shi-59.m3u8
 https://stream1.freetv.fun/23db28c32ab3480201f1786bd63814a74e07902931ef4aa44300461df3ec1495.m3u8
 #EXTINF:-1 tvg-name="河南卫视",河南卫视 (未知)
 https://stream1.freetv.fun/he-nan-wei-shi-21.m3u8
-#EXTINF:-1 tvg-name="河南卫视",河南卫视 (未知)
-https://stream1.freetv.fun/ea842ab34e6da31e0eae5bd8be6c4b7d67f0b0c214efaca7ff2c5a1718f7fe55.m3u8
 #EXTINF:-1 tvg-name="河南卫视 (IPv6)",河南卫视 (IPv6) (未知)
 https://stream1.freetv.fun/09c69b79710a84cb0eafe3fd4b5b2968cf6c8b5a7690a52df05e907a40513400.m3u8
 #EXTINF:-1 tvg-name="河南卫视 (IPv6)",河南卫视 (IPv6) (未知)
 https://stream1.freetv.fun/ipv6-he-nan-wei-shi-12.m3u8
 #EXTINF:-1 tvg-name="河南卫视 (IPv6)",河南卫视 (IPv6) (未知)
 https://stream1.freetv.fun/f64729f80423b183cd5c5e3d93c57732416de2210609891cb7a2438c04742745.m3u8
-#EXTINF:-1 tvg-name="浙江卫视",浙江卫视 (未知)
-https://stream1.freetv.fun/e8413be923d55daa4202d9f6cbcc734e93b6002071d68971ff47d16e97a6f0be.m3u8
-#EXTINF:-1 tvg-name="浙江卫视",浙江卫视 (未知)
-https://stream1.freetv.fun/zhe-jiang-wei-shi-51.m3u8
+#EXTINF:-1 tvg-name="河南卫视 (IPv6)",河南卫视 (IPv6) (未知)
+https://stream1.freetv.fun/ipv6-he-nan-wei-shi-57.m3u8
 #EXTINF:-1 tvg-name="浙江卫视",浙江卫视 (未知)
 https://stream1.freetv.fun/1fc4a396cb5e95412a26f7828cec43a13a1a036ba61058106eda8e70963f0ad9.m3u8
 #EXTINF:-1 tvg-name="浙江卫视",浙江卫视 (未知)
@@ -1648,6 +1608,8 @@ https://stream1.freetv.fun/zhe-jiang-wei-shi-95.m3u8
 #EXTINF:-1 tvg-name="浙江卫视",浙江卫视 (未知)
 https://stream1.freetv.fun/225cae69f135e3220e243e7d07b9728715c948ce2e6125b1cbb2dbeef2c419d2.m3u8
 #EXTINF:-1 tvg-name="浙江卫视",浙江卫视 (未知)
+https://stream1.freetv.fun/zhe-jiang-wei-shi-27.m3u8
+#EXTINF:-1 tvg-name="浙江卫视",浙江卫视 (未知)
 https://stream1.freetv.fun/978c39af03c6d000f81d0e8f8c3e3e79f7549a3f4dd020ba1ab3360c7585ee65.m3u8
 #EXTINF:-1 tvg-name="浙江卫视",浙江卫视 (未知)
 https://stream1.freetv.fun/zhe-jiang-wei-shi-56.m3u8
@@ -1657,6 +1619,8 @@ https://stream1.freetv.fun/3bcf99d2946ccf8b6feabbc8298a4630913b805d5965a209a4d2d
 https://stream1.freetv.fun/zhe-jiang-wei-shi-36.m3u8
 #EXTINF:-1 tvg-name="浙江卫视",浙江卫视 (未知)
 https://stream1.freetv.fun/aab1443b762ff1d73ed167bc6fe69275dcf6e87389863d0891323bc317ea98d0.m3u8
+#EXTINF:-1 tvg-name="浙江卫视",浙江卫视 (未知)
+https://stream1.freetv.fun/zhe-jiang-wei-shi-53.m3u8
 #EXTINF:-1 tvg-name="浙江卫视",浙江卫视 (未知)
 https://stream1.freetv.fun/0e8019a32c95521b041392cfec51450e6603e9b67a0b6f0b0a078303d76f5a45.m3u8
 #EXTINF:-1 tvg-name="浙江卫视",浙江卫视 (未知)
@@ -1702,6 +1666,8 @@ https://stream1.freetv.fun/e4b47bda20d4cfd5e08564ca37c2f2dabdce48b186c07a21ef1ce
 #EXTINF:-1 tvg-name="深圳卫视",深圳卫视 (未知)
 https://stream1.freetv.fun/shen-zhen-wei-shi-66.m3u8
 #EXTINF:-1 tvg-name="深圳卫视",深圳卫视 (未知)
+https://stream1.freetv.fun/ddf47078f5e7b7c5c1ad07b3f5ff21bc6a8ac4b4b264ef0fe37e84b8a287529d.m3u8
+#EXTINF:-1 tvg-name="深圳卫视",深圳卫视 (未知)
 https://stream1.freetv.fun/1500b93ee32378045a1afd75056a497c1ea612f171f50f23abb329761e9f50c1.m3u8
 #EXTINF:-1 tvg-name="深圳卫视",深圳卫视 (未知)
 https://stream1.freetv.fun/shen-zhen-wei-shi-23.m3u8
@@ -1710,17 +1676,17 @@ https://stream1.freetv.fun/0779d9959e86d4ea7c1c316e929c57da7a6245591584ef1de6c42
 #EXTINF:-1 tvg-name="深圳卫视",深圳卫视 (未知)
 https://stream1.freetv.fun/shen-zhen-wei-shi-63.m3u8
 #EXTINF:-1 tvg-name="深圳卫视",深圳卫视 (未知)
-https://stream1.freetv.fun/50ebb71eff356541b042553352cac6f9dc5fd3e8bb4f3a712b798227c7129c94.m3u8
+https://stream1.freetv.fun/4d830dd8ce74fc1ec50ae13c31ee8c6d49b1f914cdaa90510b30428d7f8a334c.m3u8
 #EXTINF:-1 tvg-name="深圳卫视",深圳卫视 (未知)
-https://stream1.freetv.fun/shen-zhen-wei-shi-58.m3u8
+https://stream1.freetv.fun/shen-zhen-wei-shi-102.m3u8
 #EXTINF:-1 tvg-name="深圳卫视",深圳卫视 (未知)
 https://stream1.freetv.fun/04aee00ba8c53c27c7c2f458492d3cfbbbb465711cb20de5cea3f37a2ef5e696.m3u8
 #EXTINF:-1 tvg-name="深圳卫视",深圳卫视 (未知)
 https://stream1.freetv.fun/shen-zhen-wei-shi-26.m3u8
 #EXTINF:-1 tvg-name="深圳卫视",深圳卫视 (未知)
-https://stream1.freetv.fun/4d830dd8ce74fc1ec50ae13c31ee8c6d49b1f914cdaa90510b30428d7f8a334c.m3u8
+https://stream1.freetv.fun/50ebb71eff356541b042553352cac6f9dc5fd3e8bb4f3a712b798227c7129c94.m3u8
 #EXTINF:-1 tvg-name="深圳卫视",深圳卫视 (未知)
-https://stream1.freetv.fun/shen-zhen-wei-shi-102.m3u8
+https://stream1.freetv.fun/shen-zhen-wei-shi-58.m3u8
 #EXTINF:-1 tvg-name="深圳卫视",深圳卫视 (未知)
 https://stream1.freetv.fun/fe093ae78d163be6cda6a455401da9fb1beee7d36b3c2de0d9e3bb41a4f08be7.m3u8
 #EXTINF:-1 tvg-name="深圳卫视",深圳卫视 (未知)
@@ -1745,6 +1711,8 @@ https://stream1.freetv.fun/hu-bei-wei-shi-69.m3u8
 https://stream1.freetv.fun/6a01f4977c8a69a6f87eb03442c5d293e49eee56fabc73000e2b7653d1e970dd.m3u8
 #EXTINF:-1 tvg-name="湖北卫视",湖北卫视 (未知)
 https://stream1.freetv.fun/hu-bei-wei-shi-58.m3u8
+#EXTINF:-1 tvg-name="湖北卫视",湖北卫视 (未知)
+https://stream1.freetv.fun/2f1a89555d12c2201fdbdded71dd38d5b2bfed265e5dc7409d2ff82c1d6f31cc.m3u8
 #EXTINF:-1 tvg-name="湖北卫视",湖北卫视 (未知)
 https://stream1.freetv.fun/2393ff19f0698372b15cdb49722ac208125de613259d1235631a2f33850641ca.m3u8
 #EXTINF:-1 tvg-name="湖北卫视",湖北卫视 (未知)
@@ -1790,6 +1758,8 @@ https://stream1.freetv.fun/1cef31134df86ef6480903c5badfd5fc0d9ab6fca5bbde6dd4ec5
 #EXTINF:-1 tvg-name="湖南卫视",湖南卫视 (未知)
 https://stream1.freetv.fun/hu-nan-wei-shi-76.m3u8
 #EXTINF:-1 tvg-name="湖南卫视",湖南卫视 (未知)
+https://stream1.freetv.fun/a2caf5db4b683ccf87481a31bce7c22d3beb4c0fb4cd1e974a512efab5593a9a.m3u8
+#EXTINF:-1 tvg-name="湖南卫视",湖南卫视 (未知)
 https://stream1.freetv.fun/2f9f80f796c785f5e852231ee0e4e5966b1a2436b4fdc72aacaa84b214886dd2.m3u8
 #EXTINF:-1 tvg-name="湖南卫视",湖南卫视 (未知)
 https://stream1.freetv.fun/hu-nan-wei-shi-19.m3u8
@@ -1818,10 +1788,6 @@ https://stream1.freetv.fun/904d0a7a808e07a6aaa8b88810414db1bcb2b64d186304b63e056
 #EXTINF:-1 tvg-name="湖南卫视",湖南卫视 (未知)
 https://stream1.freetv.fun/hu-nan-wei-shi-33.m3u8
 #EXTINF:-1 tvg-name="湖南卫视",湖南卫视 (未知)
-https://stream1.freetv.fun/ef71867a8644735b09f5399278a3ce67b0cd46e1100159c789b9240a5bf4c2bb.m3u8
-#EXTINF:-1 tvg-name="湖南卫视",湖南卫视 (未知)
-https://stream1.freetv.fun/hu-nan-wei-shi-18.m3u8
-#EXTINF:-1 tvg-name="湖南卫视",湖南卫视 (未知)
 https://stream1.freetv.fun/b5ff62d73a9f2d9c0cb59b9b7aed62a570080765e403266aa1f4b4d7e2a8d6c4.m3u8
 #EXTINF:-1 tvg-name="湖南卫视",湖南卫视 (未知)
 https://stream1.freetv.fun/hu-nan-wei-shi-6.m3u8
@@ -1838,17 +1804,19 @@ https://stream1.freetv.fun/c99b3e3e2406e7b6c21591febfb7a82fb3b746fb8a2ed6725f4ca
 #EXTINF:-1 tvg-name="西藏卫视",西藏卫视 (未知)
 https://stream1.freetv.fun/xi-cang-wei-shi-14.m3u8
 #EXTINF:-1 tvg-name="西藏卫视",西藏卫视 (未知)
+https://stream1.freetv.fun/3a40dd1a61bfe83b3d2698b83892634653729eb7a4d27927ea81180d997d3a15.m3u8
+#EXTINF:-1 tvg-name="西藏卫视",西藏卫视 (未知)
 https://stream1.freetv.fun/0daba4f619304000810d1c63d879aacd323d79018d9ba1608a7f14e24614bb6c.m3u8
 #EXTINF:-1 tvg-name="西藏卫视",西藏卫视 (未知)
 https://stream1.freetv.fun/xi-cang-wei-shi-56.m3u8
+#EXTINF:-1 tvg-name="西藏卫视",西藏卫视 (未知)
+https://stream1.freetv.fun/7642fc00d43ee6def5089508e667b56c84ece5b13fd734325424450485dd9a7a.m3u8
 #EXTINF:-1 tvg-name="西藏卫视",西藏卫视 (未知)
 https://stream1.freetv.fun/6d724d6e392bc420190ea1734eb36ffeb9cce872a6f9e558eacd2f588b7d063e.m3u8
 #EXTINF:-1 tvg-name="西藏卫视",西藏卫视 (未知)
 https://stream1.freetv.fun/xi-cang-wei-shi-47.m3u8
 #EXTINF:-1 tvg-name="西藏卫视",西藏卫视 (未知)
-https://stream1.freetv.fun/7642fc00d43ee6def5089508e667b56c84ece5b13fd734325424450485dd9a7a.m3u8
-#EXTINF:-1 tvg-name="西藏卫视",西藏卫视 (未知)
-https://stream1.freetv.fun/xi-cang-wei-shi-40.m3u8
+https://stream1.freetv.fun/340600ac4622671b6909983ae04b6c86b4c8c60544c6ffa981f022a4e78220b6.m3u8
 #EXTINF:-1 tvg-name="西藏卫视",西藏卫视 (未知)
 https://stream1.freetv.fun/b8050307a274e899dbed6c2d26362d78e3bc43289fa1c71af89278cd59d7c42d.m3u8
 #EXTINF:-1 tvg-name="西藏卫视",西藏卫视 (未知)
@@ -1888,13 +1856,13 @@ https://stream1.freetv.fun/gui-zhou-wei-shi-44.m3u8
 #EXTINF:-1 tvg-name="贵州卫视",贵州卫视 (未知)
 https://stream1.freetv.fun/e93f8acf466e61433118eef65f5cf3fa35d3f4999dc9b5b1c51e233f4bbc09bd.m3u8
 #EXTINF:-1 tvg-name="贵州卫视",贵州卫视 (未知)
+https://stream1.freetv.fun/gui-zhou-wei-shi-93.m3u8
+#EXTINF:-1 tvg-name="贵州卫视",贵州卫视 (未知)
 https://stream1.freetv.fun/4246e947623686b0725145a4651f8a8776c77515d00eed1add3f5e36f8a7a56e.m3u8
 #EXTINF:-1 tvg-name="贵州卫视",贵州卫视 (未知)
 https://stream1.freetv.fun/gui-zhou-wei-shi-102.m3u8
 #EXTINF:-1 tvg-name="贵州卫视",贵州卫视 (未知)
 https://stream1.freetv.fun/b3e41d7e57e01edee53dd076c2bbb91349a18376124d5911fcb436aeba6fb442.m3u8
-#EXTINF:-1 tvg-name="贵州卫视",贵州卫视 (未知)
-https://stream1.freetv.fun/gui-zhou-wei-shi-85.m3u8
 #EXTINF:-1 tvg-name="贵州卫视 (IPv6)",贵州卫视 (IPv6) (未知)
 https://stream1.freetv.fun/8e8407a82f2d395cd962851edf2b48ecffcec47128680e818616c5e864b06d77.m3u8
 #EXTINF:-1 tvg-name="贵州卫视 (IPv6)",贵州卫视 (IPv6) (未知)
@@ -1908,6 +1876,10 @@ https://stream1.freetv.fun/13d3a356c0a45819f8450d7c63ddd40dc4cc1e34b48b3f94fb7b8
 #EXTINF:-1 tvg-name="辽宁卫视",辽宁卫视 (未知)
 https://stream1.freetv.fun/liao-zhu-wei-shi-33.m3u8
 #EXTINF:-1 tvg-name="辽宁卫视",辽宁卫视 (未知)
+https://stream1.freetv.fun/28c0641b79a341f7f3223c3ec2903aec9289f1ecb7aca3cd38fde2877784115f.m3u8
+#EXTINF:-1 tvg-name="辽宁卫视",辽宁卫视 (未知)
+https://stream1.freetv.fun/ca69c045c87a88ca4dee45226a5d6bcbfc8db0906d2eae8e35dcd9548d9ebb8f.m3u8
+#EXTINF:-1 tvg-name="辽宁卫视",辽宁卫视 (未知)
 https://stream1.freetv.fun/2b449066c228b3402ddfa1d6d22c42205291e049e9d68876d2e083155f8e1621.m3u8
 #EXTINF:-1 tvg-name="辽宁卫视",辽宁卫视 (未知)
 https://stream1.freetv.fun/liao-zhu-wei-shi-65.m3u8
@@ -1915,10 +1887,6 @@ https://stream1.freetv.fun/liao-zhu-wei-shi-65.m3u8
 https://stream1.freetv.fun/79a34375894602e49d48f315b291ec306fd20425e213ee3a1977e364e8dbe84b.m3u8
 #EXTINF:-1 tvg-name="辽宁卫视",辽宁卫视 (未知)
 https://stream1.freetv.fun/liao-zhu-wei-shi-44.m3u8
-#EXTINF:-1 tvg-name="辽宁卫视",辽宁卫视 (未知)
-https://stream1.freetv.fun/a1e68321595bed7b5ae0f306cdd80d546fa6770eb717f24d5efa054258b3208f.m3u8
-#EXTINF:-1 tvg-name="辽宁卫视",辽宁卫视 (未知)
-https://stream1.freetv.fun/liao-zhu-wei-shi-49.m3u8
 #EXTINF:-1 tvg-name="辽宁卫视",辽宁卫视 (未知)
 https://stream1.freetv.fun/d3e6313d20b5df123b2919cb7cf9810dbd3ca26ebc41700e8ddf13d3c978492d.m3u8
 #EXTINF:-1 tvg-name="辽宁卫视",辽宁卫视 (未知)
@@ -1931,6 +1899,8 @@ https://stream1.freetv.fun/liao-zhu-wei-shi-54.m3u8
 https://stream1.freetv.fun/91916992fb62b120939e6706e0afe5b3f293ac89ef6e02481b3f54c9a869c6c3.m3u8
 #EXTINF:-1 tvg-name="辽宁卫视",辽宁卫视 (未知)
 https://stream1.freetv.fun/liao-zhu-wei-shi-82.m3u8
+#EXTINF:-1 tvg-name="辽宁卫视",辽宁卫视 (未知)
+https://stream1.freetv.fun/4cec02e6ee84731aee7c1ac29be903709bf4cf93ae34ae6ad1076b5323e01c75.m3u8
 #EXTINF:-1 tvg-name="辽宁卫视",辽宁卫视 (未知)
 https://stream1.freetv.fun/839305f9ff7f16cfa4632450cdc7e07207e9a29b8a2346e2a0f2e53a4b7f5e8a.m3u8
 #EXTINF:-1 tvg-name="辽宁卫视",辽宁卫视 (未知)
@@ -1973,6 +1943,8 @@ https://stream1.freetv.fun/a5a86c354979c8baf2ce573f03d263e42a06e91d33fd45ad6a2e4
 https://stream1.freetv.fun/zhong-qing-wei-shi-14.m3u8
 #EXTINF:-1 tvg-name="重庆卫视",重庆卫视 (未知)
 https://stream1.freetv.fun/8c7867b380238a3f6091488e9a24c0488d55deb52405d24e833e887a4cced66e.m3u8
+#EXTINF:-1 tvg-name="重庆卫视",重庆卫视 (未知)
+https://stream1.freetv.fun/zhong-qing-wei-shi-77.m3u8
 #EXTINF:-1 tvg-name="重庆卫视",重庆卫视 (未知)
 https://stream1.freetv.fun/05656c2c8320dc520ec977f4010440bd54bd540fa671c078803b0989a5021f87.m3u8
 #EXTINF:-1 tvg-name="重庆卫视",重庆卫视 (未知)
@@ -2018,19 +1990,15 @@ https://stream1.freetv.fun/6fd4a1c40e376d4e4595b2bbe41b940c7efdc55f8215253db9679
 #EXTINF:-1 tvg-name="陕西卫视",陕西卫视 (未知)
 https://stream1.freetv.fun/shan-xi-wei-shi-53.m3u8
 #EXTINF:-1 tvg-name="陕西卫视",陕西卫视 (未知)
-https://stream1.freetv.fun/4503729b5f4ee230f90e9e982984e8af1d1b2b8748b935224b51c60f58c8890a.m3u8
-#EXTINF:-1 tvg-name="陕西卫视",陕西卫视 (未知)
 https://stream1.freetv.fun/56a35bc567daf002287a8e52511c080f2e0e1d426a695d93386cb4f01c577af4.m3u8
 #EXTINF:-1 tvg-name="陕西卫视",陕西卫视 (未知)
-https://stream1.freetv.fun/shan-xi-wei-shi-112.m3u8
+https://stream1.freetv.fun/4503729b5f4ee230f90e9e982984e8af1d1b2b8748b935224b51c60f58c8890a.m3u8
+#EXTINF:-1 tvg-name="陕西卫视",陕西卫视 (未知)
+https://stream1.freetv.fun/shan-xi-wei-shi-118.m3u8
 #EXTINF:-1 tvg-name="陕西卫视",陕西卫视 (未知)
 https://stream1.freetv.fun/20058cfa981d8fbeaa8fc1afbde907d357b433b9d97977925393a4bbfcb2af3e.m3u8
 #EXTINF:-1 tvg-name="陕西卫视",陕西卫视 (未知)
 https://stream1.freetv.fun/shan-xi-wei-shi-77.m3u8
-#EXTINF:-1 tvg-name="陕西卫视",陕西卫视 (未知)
-https://stream1.freetv.fun/c2abf6755815b47b6d84755333f6cca6aa0cb95f006f091e5c6cc931134f4005.m3u8
-#EXTINF:-1 tvg-name="陕西卫视",陕西卫视 (未知)
-https://stream1.freetv.fun/shan-xi-wei-shi-16.m3u8
 #EXTINF:-1 tvg-name="陕西卫视",陕西卫视 (未知)
 https://stream1.freetv.fun/eb1d7157459fe4c37bbfad23252b85ab628f4e3d14d81aea7b4a014d2658ae41.m3u8
 #EXTINF:-1 tvg-name="陕西卫视",陕西卫视 (未知)
@@ -2060,6 +2028,8 @@ https://stream1.freetv.fun/8cd16038f16bfc0dca7a3786e0332da84a2420e19a899dcfa14fd
 #EXTINF:-1 tvg-name="黑龙江卫视",黑龙江卫视 (未知)
 https://stream1.freetv.fun/hei-long-jiang-wei-shi-33.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视",黑龙江卫视 (未知)
+https://stream1.freetv.fun/124110fa4249072d60b255bd2fbed0dd03d803ede38ce5172284c845630fe1d0.m3u8
+#EXTINF:-1 tvg-name="黑龙江卫视",黑龙江卫视 (未知)
 https://stream1.freetv.fun/093c7c9b349cb0d3e970fde70093f2cc51b70100bf0b4295bdce6ef9bf70054e.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视",黑龙江卫视 (未知)
 https://stream1.freetv.fun/hei-long-jiang-wei-shi-36.m3u8
@@ -2067,6 +2037,8 @@ https://stream1.freetv.fun/hei-long-jiang-wei-shi-36.m3u8
 https://stream1.freetv.fun/c502a906b9e38fa6be2377f3ba900c5802f3b68a586a172ed17a05508d092b8e.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视",黑龙江卫视 (未知)
 https://stream1.freetv.fun/hei-long-jiang-wei-shi-45.m3u8
+#EXTINF:-1 tvg-name="黑龙江卫视",黑龙江卫视 (未知)
+https://stream1.freetv.fun/683060089384f9db90b6996b4a9eed2ffe2f42aa9b2ec8d4b55330630fc5df68.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视",黑龙江卫视 (未知)
 https://stream1.freetv.fun/cfa2ed9d4f96d20f3dd2eb920e17de8ecd8482cfff2328d8cfdcaba050a03a4b.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视",黑龙江卫视 (未知)
@@ -2081,8 +2053,6 @@ https://stream1.freetv.fun/c6c1262d0b35e59eac22bf513395f00f8b60cc5eab41f598412cd
 https://stream1.freetv.fun/hei-long-jiang-wei-shi-35.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视",黑龙江卫视 (未知)
 https://stream1.freetv.fun/9d7a745d71fa16ea6b1a0edce79f7b842e59487519e7a76bcef5b0c7a87a3f24.m3u8
-#EXTINF:-1 tvg-name="黑龙江卫视",黑龙江卫视 (未知)
-https://stream1.freetv.fun/hei-long-jiang-wei-shi-61.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视",黑龙江卫视 (未知)
 https://stream1.freetv.fun/91f980623df2d6f6e2bdc1ade976bc8930d4e6cad8e116fd5f3c6fe91e60345c.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视",黑龙江卫视 (未知)
