@@ -1,50 +1,46 @@
 #EXTM3U
-#EXTINF:-1, CCTV-4
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV4%281080p%29&t=1759030213&token=ea0d2e5342de66aa7e11e621cda4273e
 #EXTINF:-1, CCTV-1
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV1&t=1759030213&token=45398a27ef4db7c70f26a532c733ca22
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV1&t=1760585411&token=df1eaa2ae08936d8da14fe1274694f28
 #EXTINF:-1, CCTV-2
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV2&t=1759030213&token=787823ccb7894ea5718506fcdeae9f53
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV2&t=1760585411&token=b62ec217c9ea32b3ba58ffee43c1e567
 #EXTINF:-1, CCTV-3
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV3&t=1759030213&token=d4b5ab4c20dd434d8089cc8899b6b73e
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV3&t=1760585411&token=d62685a3c74216fb529a697d66a6e0c9
 #EXTINF:-1, CCTV-4
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV4&t=1759030213&token=b06dd52b07fa0f09de8acbd1b2ba49d3
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV4&t=1760585411&token=30206ac2abdd37a1d4104f2bc86536db
+#EXTINF:-1, CCTV-4
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV4%E6%AC%A7%E6%B4%B2&t=1760585411&token=da268c366a4e6adc06b5dc3324870b76
+#EXTINF:-1, CCTV-4
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV4%E7%BE%8E%E6%B4%B2&t=1760585411&token=11cbe0ca2025e00d706af0bcbbdfffe3
 #EXTINF:-1, CCTV-5
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV5&t=1759030213&token=b9da5982322fcf9cc0f8503dd7002f5c
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV5&t=1760585411&token=11ca3f429dba1df4ad42fb1f50512dfa
 #EXTINF:-1, CCTV-5
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV5%2B&t=1759030213&token=e4178e32f2997860b3b234cdaf33571a
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV5%2B&t=1760585411&token=4555e6dbb64f42fbc0175bc8069bd14d
 #EXTINF:-1, CCTV-6
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV6&t=1759030213&token=a9ff016007b2e8f27d7ac44a8bd1e4ba
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV6&t=1760585411&token=944b6327597e5ab6e14998beedd01e06
 #EXTINF:-1, CCTV-7
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV7&t=1759030213&token=f3b1df20683d3b0a98294a97fcabeca8
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV7&t=1760585411&token=ef4566ffc523128175204c2939d3a5b8
 #EXTINF:-1, CCTV-8
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV8&t=1759030213&token=f606a94d0dae661920bbc53895008bdc
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV8&t=1760585411&token=68364a3ee862acfdd15da4c8d59bac6e
 #EXTINF:-1, CCTV-9
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV9&t=1759030213&token=4724f938d7383aaa55662551441ea93f
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV9&t=1760585411&token=da9c8b1a8c75b3a27e5d2813c00dc7b2
 #EXTINF:-1, CCTV-10
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV10&t=1759030213&token=27b8ce7aa9bfd9eef72b402cad5c9154
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV10&t=1760585411&token=904dc116f371d163a15a0f3a5bfe48cc
 #EXTINF:-1, CCTV-11
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV11&t=1759030213&token=ffbb2e562c7490b96c0b1f57bccacd14
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV11&t=1760585411&token=821b5631124e90e68b543463dba4e16a
 #EXTINF:-1, CCTV-12
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV12&t=1759030213&token=0954ef910f09f82fbe4d207bd61f07e3
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV12&t=1760585411&token=59ec7ffad1e9e9e38e9afbc330fbea04
 #EXTINF:-1, CCTV-13
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV13&t=1759030213&token=afa687f0d8d121ff17ccd7eeec71ca1b
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV13&t=1760585411&token=cde87db33a1a9c36c65a2f73e3a9ff07
 #EXTINF:-1, CCTV-14
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV14&t=1759030213&token=b1d8af0a7d509b0ab220947dbb5d903b
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV14&t=1760585411&token=80bd93b5d36b1ec98fcd22d9f926ee09
 #EXTINF:-1, CCTV-15
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV15&t=1759030213&token=e41e45d7b9bf7282d1a34329aab6aa3a
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV15&t=1760585411&token=09554eaa18bb7938b0a35bcb56022466
 #EXTINF:-1, CCTV-16
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV16&t=1759030213&token=b21e20317c4e3373bb81dd5b422a3e2f
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV16&t=1760585411&token=eb2b75771d80d23c058e0a85107d1183
 #EXTINF:-1, CCTV-17
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV17&t=1759030213&token=e70a8ced1d4d836100a7e311bf81301a
-#EXTINF:-1, CCTV-14
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV14&t=1759030213&token=b1d8af0a7d509b0ab220947dbb5d903b
-#EXTINF:-1, CCTV-15
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV15&t=1759030213&token=e41e45d7b9bf7282d1a34329aab6aa3a
-#EXTINF:-1, CCTV-16
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV16&t=1759030213&token=b21e20317c4e3373bb81dd5b422a3e2f
-#EXTINF:-1, CCTV-17
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV17&t=1759030213&token=e70a8ced1d4d836100a7e311bf81301a
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV17&t=1760585411&token=89eb1f4f348a08ea121906fb91d25934
+#EXTINF:-1, CCTV-4
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV4%281080p%29&t=1760585411&token=4b9e4365dd539fe9122198078d7fc6e6
 #EXTINF:-1, CCTV-4
 https://stream.iptv-search.com/iptv_test/main.php?id=CCTV4%281080p%29&t=1759030213&token=ea0d2e5342de66aa7e11e621cda4273e
 #EXTINF:-1, CCTV-1
