@@ -1,7 +1,7 @@
 name: Update CCTV IPTV Channels
 
 on:
-  schedule:
+ // schedule:
     - cron: '0 18 * * *'
   workflow_dispatch:
 
@@ -32,3 +32,4 @@ jobs:
         git add cctv_channels.m3u
         git diff --cached --quiet || git commit -m "Auto update CCTV m3u"
         git push
+
